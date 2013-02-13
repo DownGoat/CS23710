@@ -1,0 +1,5 @@
+      String fight = request.getParameter("fight");
+        if("1".equals(fight)) {
+            Monster one = new Monster();
+            Monster two = new Monster();
+        }
