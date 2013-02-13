@@ -1,0 +1,114 @@
+\hypertarget{course_8c}{\section{course.\-c File Reference}
+\label{course_8c}\index{course.\-c@{course.\-c}}
+}
+
+
+This file contains functions used to work with the course data structure.  
+
+
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$errno.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}node.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}track.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}course.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}entrant.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{course_8h_aa6d3ed6acb1b755d50093c623587ee17}{C\-O\-U\-R\-S\-E\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{course_8c_ad2f4feb188b1f9708d759da4cdc20431}{read\-\_\-courses} (char $\ast$path, \hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$\hyperlink{structnode__list}{node\-\_\-list}, \hyperlink{track_8h_a74548625073be9665a690d126e4daf4f}{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T} $\ast$\hyperlink{structtrack__list}{track\-\_\-list})
+\begin{DoxyCompactList}\small\item\em This function reads and parses the file with the courses. \end{DoxyCompactList}\item 
+int \hyperlink{course_8c_a3b763864aee771a0ea402b59d3a774e2}{validate\-\_\-course} (\hyperlink{course_8h_a69f4c62ff3070d7db8a23b38333ea000}{C\-O\-U\-R\-S\-E} \hyperlink{structcourse}{course}, \hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$\hyperlink{structnode__list}{node\-\_\-list})
+\begin{DoxyCompactList}\small\item\em Validates if the C\-O\-U\-R\-S\-E is combined of nodes with that tracks that are valid. \end{DoxyCompactList}\item 
+\hyperlink{course_8h_a69f4c62ff3070d7db8a23b38333ea000}{C\-O\-U\-R\-S\-E} $\ast$ \hyperlink{course_8c_ae83fb2d42fb856bb7325632d1065f8a1}{search\-\_\-course\-\_\-id} (\hyperlink{course_8h_aa6d3ed6acb1b755d50093c623587ee17}{C\-O\-U\-R\-S\-E\-\_\-\-L\-I\-S\-T} $\ast$list, char id)
+\begin{DoxyCompactList}\small\item\em This function searches for a C\-O\-U\-R\-S\-E with the given I\-D. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{course_8c_ad65a8842cc674e3ddf69355898c0ecbf}{int {\bfseries errno}}\label{course_8c_ad65a8842cc674e3ddf69355898c0ecbf}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains functions used to work with the course data structure. \begin{DoxyAuthor}{Author}
+Sindre Smistad \href{mailto:sis13@aber.ac.uk}{\tt sis13@aber.\-ac.\-uk}
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012.\-11.\-25 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\hypertarget{course_8c_ad2f4feb188b1f9708d759da4cdc20431}{\index{course.\-c@{course.\-c}!read\-\_\-courses@{read\-\_\-courses}}
+\index{read\-\_\-courses@{read\-\_\-courses}!course.c@{course.\-c}}
+\subsubsection[{read\-\_\-courses}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-O\-U\-R\-S\-E\-\_\-\-L\-I\-S\-T}$\ast$ read\-\_\-courses (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{path, }
+\item[{{\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$}]{node\-\_\-list, }
+\item[{{\bf T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T} $\ast$}]{track\-\_\-list}
+\end{DoxyParamCaption}
+)}}\label{course_8c_ad2f4feb188b1f9708d759da4cdc20431}
+
+
+This function reads and parses the file with the courses. 
+
+The function will check that the node specified exists, and that there is a valid track between the nodes. The data should consist of a single capital character which will be the course I\-D. Followed by a positive integer which will be the number of nodes for the course. The rest of the line should be the I\-D of each node separated by spaces.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Path to the file containing the course data.\\
+\hline
+{\em \hyperlink{structnode__list}{node\-\_\-list}} & Pointer to the node list. It is needed to verify that the nodes in the course exists.\\
+\hline
+{\em \hyperlink{structtrack__list}{track\-\_\-list}} & Pointer to the track list. It is needed to verify that there is a valid path between the nodes of the course.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the function is successful it will return a pointer to the first element of the list. If it fails it will return N\-U\-L\-L. 
+\end{DoxyReturn}
+\hypertarget{course_8c_ae83fb2d42fb856bb7325632d1065f8a1}{\index{course.\-c@{course.\-c}!search\-\_\-course\-\_\-id@{search\-\_\-course\-\_\-id}}
+\index{search\-\_\-course\-\_\-id@{search\-\_\-course\-\_\-id}!course.c@{course.\-c}}
+\subsubsection[{search\-\_\-course\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-O\-U\-R\-S\-E}$\ast$ search\-\_\-course\-\_\-id (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-O\-U\-R\-S\-E\-\_\-\-L\-I\-S\-T} $\ast$}]{list, }
+\item[{char}]{id}
+\end{DoxyParamCaption}
+)}}\label{course_8c_ae83fb2d42fb856bb7325632d1065f8a1}
+
+
+This function searches for a C\-O\-U\-R\-S\-E with the given I\-D. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & List of the courses.\\
+\hline
+{\em id} & The I\-D of the C\-O\-U\-R\-S\-E you are looking for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns a pointer to the C\-O\-U\-R\-S\-E if it is found, if it fails N\-U\-L\-L is returned. 
+\end{DoxyReturn}
+\hypertarget{course_8c_a3b763864aee771a0ea402b59d3a774e2}{\index{course.\-c@{course.\-c}!validate\-\_\-course@{validate\-\_\-course}}
+\index{validate\-\_\-course@{validate\-\_\-course}!course.c@{course.\-c}}
+\subsubsection[{validate\-\_\-course}]{\setlength{\rightskip}{0pt plus 5cm}int validate\-\_\-course (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-O\-U\-R\-S\-E}}]{course, }
+\item[{{\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$}]{node\-\_\-list}
+\end{DoxyParamCaption}
+)}}\label{course_8c_a3b763864aee771a0ea402b59d3a774e2}
+
+
+Validates if the C\-O\-U\-R\-S\-E is combined of nodes with that tracks that are valid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em course} & The course you want to validate.\\
+\hline
+{\em \hyperlink{structnode__list}{node\-\_\-list}} & A list of nodes, this is needed to lookup the nodes.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 if it is a valid C\-O\-U\-R\-S\-E. If the C\-O\-U\-R\-S\-E is invalid 0 is returned. 
+\end{DoxyReturn}

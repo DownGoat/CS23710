@@ -1,0 +1,389 @@
+\begin{theindex}
+
+  \item {add\discretionary {-}{}{}\_\discretionary {-}{}{}cp}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{27}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{30}
+  \item {ask\discretionary {-}{}{}\_\discretionary {-}{}{}int}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{33}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{37}
+  \item {ask\discretionary {-}{}{}\_\discretionary {-}{}{}str}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{34}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{37}
+
+  \indexspace
+
+  \item {C\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}R\discretionary {-}{}{}S\discretionary {-}{}{}E}
+    \subitem {course.\discretionary {-}{}{}h}, \hyperpage{17}
+  \item {C\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}R\discretionary {-}{}{}S\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}
+    \subitem {course.\discretionary {-}{}{}h}, \hyperpage{17}
+  \item {calc\discretionary {-}{}{}\_\discretionary {-}{}{}time}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{27}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{30}
+  \item {course}, \hyperpage{5}
+    \subitem {course\discretionary {-}{}{}\_\discretionary {-}{}{}id}, 
+		\hyperpage{5}
+  \item {course.\discretionary {-}{}{}c}, \hyperpage{15}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}courses}, 
+		\hyperpage{16}
+    \subitem {search\discretionary {-}{}{}\_\discretionary {-}{}{}course\discretionary {-}{}{}\_\discretionary {-}{}{}id}, 
+		\hyperpage{16}
+    \subitem {validate\discretionary {-}{}{}\_\discretionary {-}{}{}course}, 
+		\hyperpage{16}
+  \item {course.\discretionary {-}{}{}h}, \hyperpage{16}
+    \subitem {C\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}R\discretionary {-}{}{}S\discretionary {-}{}{}E}, 
+		\hyperpage{17}
+    \subitem {C\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}R\discretionary {-}{}{}S\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}, 
+		\hyperpage{17}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}courses}, 
+		\hyperpage{18}
+    \subitem {search\discretionary {-}{}{}\_\discretionary {-}{}{}course\discretionary {-}{}{}\_\discretionary {-}{}{}id}, 
+		\hyperpage{18}
+    \subitem {validate\discretionary {-}{}{}\_\discretionary {-}{}{}course}, 
+		\hyperpage{18}
+  \item {course\discretionary {-}{}{}\_\discretionary {-}{}{}id}
+    \subitem {course}, \hyperpage{5}
+  \item {course\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{6}
+    \subitem {entrants}, \hyperpage{6}
+    \subitem {node\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{6}
+    \subitem {track\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{6}
+  \item {course\discretionary {-}{}{}\_\discretionary {-}{}{}read}
+    \subitem {tests.\discretionary {-}{}{}h}, \hyperpage{43}
+  \item {cp\discretionary {-}{}{}\_\discretionary {-}{}{}time}, 
+		\hyperpage{7}
+  \item {cp\discretionary {-}{}{}\_\discretionary {-}{}{}time.\discretionary {-}{}{}c}, 
+		\hyperpage{19}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}event\discretionary {-}{}{}\_\discretionary {-}{}{}data}, 
+		\hyperpage{19}
+  \item {cp\discretionary {-}{}{}\_\discretionary {-}{}{}time.\discretionary {-}{}{}h}, 
+		\hyperpage{19}
+  \item {cp\discretionary {-}{}{}\_\discretionary {-}{}{}time\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{7}
+
+  \indexspace
+
+  \item {date}
+    \subitem {event}, \hyperpage{10}
+
+  \indexspace
+
+  \item {E\discretionary {-}{}{}N\discretionary {-}{}{}T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}N\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}
+    \subitem {entrant.\discretionary {-}{}{}h}, \hyperpage{23}
+  \item {E\discretionary {-}{}{}V\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}T}
+    \subitem {event.\discretionary {-}{}{}h}, \hyperpage{26}
+  \item {entrant}, \hyperpage{7}
+    \subitem {status}, \hyperpage{8}
+  \item {entrant.\discretionary {-}{}{}c}, \hyperpage{20}
+    \subitem {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}, 
+		\hyperpage{21}
+    \subitem {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}name\discretionary {-}{}{}\_\discretionary {-}{}{}search}, 
+		\hyperpage{21}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}, 
+		\hyperpage{21}
+    \subitem {update\discretionary {-}{}{}\_\discretionary {-}{}{}status}, 
+		\hyperpage{22}
+  \item {entrant.\discretionary {-}{}{}h}, \hyperpage{22}
+    \subitem {E\discretionary {-}{}{}N\discretionary {-}{}{}T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}N\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}, 
+		\hyperpage{23}
+    \subitem {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}, 
+		\hyperpage{23}
+    \subitem {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}name\discretionary {-}{}{}\_\discretionary {-}{}{}search}, 
+		\hyperpage{23}
+    \subitem {print\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}, 
+		\hyperpage{24}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}, 
+		\hyperpage{24}
+  \item {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}finished}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{28}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{30}
+  \item {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}
+    \subitem {entrant.\discretionary {-}{}{}c}, \hyperpage{21}
+    \subitem {entrant.\discretionary {-}{}{}h}, \hyperpage{23}
+  \item {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{8}
+  \item {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}name\discretionary {-}{}{}\_\discretionary {-}{}{}search}
+    \subitem {entrant.\discretionary {-}{}{}c}, \hyperpage{21}
+    \subitem {entrant.\discretionary {-}{}{}h}, \hyperpage{23}
+  \item {entrants}
+    \subitem {course\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{6}
+    \subitem {event}, \hyperpage{10}
+  \item {event}, \hyperpage{9}
+    \subitem {date}, \hyperpage{10}
+    \subitem {entrants}, \hyperpage{10}
+    \subitem {name}, \hyperpage{10}
+  \item {event.\discretionary {-}{}{}c}, \hyperpage{24}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}event}, 
+		\hyperpage{25}
+  \item {event.\discretionary {-}{}{}h}, \hyperpage{25}
+    \subitem {E\discretionary {-}{}{}V\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}T}, 
+		\hyperpage{26}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}event}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {finished}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{28}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{31}
+  \item {format\discretionary {-}{}{}\_\discretionary {-}{}{}time}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{28}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{31}
+  \item {functions.\discretionary {-}{}{}c}, \hyperpage{26}
+    \subitem {add\discretionary {-}{}{}\_\discretionary {-}{}{}cp}, 
+		\hyperpage{27}
+    \subitem {calc\discretionary {-}{}{}\_\discretionary {-}{}{}time}, 
+		\hyperpage{27}
+    \subitem {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}finished}, 
+		\hyperpage{28}
+    \subitem {finished}, \hyperpage{28}
+    \subitem {format\discretionary {-}{}{}\_\discretionary {-}{}{}time}, 
+		\hyperpage{28}
+    \subitem {not\discretionary {-}{}{}\_\discretionary {-}{}{}started}, 
+		\hyperpage{28}
+    \subitem {out\discretionary {-}{}{}\_\discretionary {-}{}{}track}, 
+		\hyperpage{28}
+    \subitem {print\discretionary {-}{}{}\_\discretionary {-}{}{}all}, 
+		\hyperpage{29}
+    \subitem {print\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}, 
+		\hyperpage{29}
+  \item {functions.\discretionary {-}{}{}h}, \hyperpage{29}
+    \subitem {add\discretionary {-}{}{}\_\discretionary {-}{}{}cp}, 
+		\hyperpage{30}
+    \subitem {calc\discretionary {-}{}{}\_\discretionary {-}{}{}time}, 
+		\hyperpage{30}
+    \subitem {entrant\discretionary {-}{}{}\_\discretionary {-}{}{}finished}, 
+		\hyperpage{30}
+    \subitem {finished}, \hyperpage{31}
+    \subitem {format\discretionary {-}{}{}\_\discretionary {-}{}{}time}, 
+		\hyperpage{31}
+    \subitem {not\discretionary {-}{}{}\_\discretionary {-}{}{}started}, 
+		\hyperpage{31}
+    \subitem {out\discretionary {-}{}{}\_\discretionary {-}{}{}track}, 
+		\hyperpage{31}
+    \subitem {print\discretionary {-}{}{}\_\discretionary {-}{}{}all}, 
+		\hyperpage{31}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}event\discretionary {-}{}{}\_\discretionary {-}{}{}data}, 
+		\hyperpage{31}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}, 
+		\hyperpage{32}
+    \subitem {update\discretionary {-}{}{}\_\discretionary {-}{}{}status}, 
+		\hyperpage{32}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}courses}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{34}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{37}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{34}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{34}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}event}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{34}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{35}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{35}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{38}
+
+  \indexspace
+
+  \item {input.\discretionary {-}{}{}c}, \hyperpage{32}
+    \subitem {ask\discretionary {-}{}{}\_\discretionary {-}{}{}int}, 
+		\hyperpage{33}
+    \subitem {ask\discretionary {-}{}{}\_\discretionary {-}{}{}str}, 
+		\hyperpage{34}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}courses}, 
+		\hyperpage{34}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}, 
+		\hyperpage{34}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}, 
+		\hyperpage{34}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}event}, 
+		\hyperpage{34}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}, 
+		\hyperpage{35}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}, 
+		\hyperpage{35}
+    \subitem {load\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}, 
+		\hyperpage{35}
+    \subitem {query\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}, 
+		\hyperpage{35}
+    \subitem {show\discretionary {-}{}{}\_\discretionary {-}{}{}menu}, 
+		\hyperpage{36}
+  \item {input.\discretionary {-}{}{}h}, \hyperpage{36}
+    \subitem {ask\discretionary {-}{}{}\_\discretionary {-}{}{}int}, 
+		\hyperpage{37}
+    \subitem {ask\discretionary {-}{}{}\_\discretionary {-}{}{}str}, 
+		\hyperpage{37}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}courses}, 
+		\hyperpage{37}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}, 
+		\hyperpage{38}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}, 
+		\hyperpage{38}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}event}, 
+		\hyperpage{38}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}, 
+		\hyperpage{38}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}, 
+		\hyperpage{38}
+    \subitem {load\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}, 
+		\hyperpage{39}
+    \subitem {query\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}, 
+		\hyperpage{39}
+    \subitem {show\discretionary {-}{}{}\_\discretionary {-}{}{}menu}, 
+		\hyperpage{39}
+
+  \indexspace
+
+  \item {load\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{35}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{39}
+
+  \indexspace
+
+  \item {N\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E}
+    \subitem {node.\discretionary {-}{}{}h}, \hyperpage{41}
+  \item {N\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}
+    \subitem {node.\discretionary {-}{}{}h}, \hyperpage{41}
+  \item {name}
+    \subitem {event}, \hyperpage{10}
+  \item {node}, \hyperpage{10}
+    \subitem {node\discretionary {-}{}{}\_\discretionary {-}{}{}id}, 
+		\hyperpage{11}
+  \item {node.\discretionary {-}{}{}c}, \hyperpage{39}
+    \subitem {node\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}, 
+		\hyperpage{40}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}, 
+		\hyperpage{40}
+  \item {node.\discretionary {-}{}{}h}, \hyperpage{40}
+    \subitem {N\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E}, 
+		\hyperpage{41}
+    \subitem {N\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}, 
+		\hyperpage{41}
+    \subitem {node\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}, 
+		\hyperpage{42}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}, 
+		\hyperpage{42}
+  \item {node\discretionary {-}{}{}\_\discretionary {-}{}{}id}
+    \subitem {node}, \hyperpage{11}
+  \item {node\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}
+    \subitem {node.\discretionary {-}{}{}c}, \hyperpage{40}
+    \subitem {node.\discretionary {-}{}{}h}, \hyperpage{42}
+  \item {node\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{11}
+    \subitem {course\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{6}
+  \item {not\discretionary {-}{}{}\_\discretionary {-}{}{}started}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{28}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{31}
+
+  \indexspace
+
+  \item {out\discretionary {-}{}{}\_\discretionary {-}{}{}track}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{28}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{31}
+
+  \indexspace
+
+  \item {print\discretionary {-}{}{}\_\discretionary {-}{}{}all}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{29}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{31}
+  \item {print\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}
+    \subitem {entrant.\discretionary {-}{}{}h}, \hyperpage{24}
+    \subitem {functions.\discretionary {-}{}{}c}, \hyperpage{29}
+
+  \indexspace
+
+  \item {query\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{35}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{39}
+
+  \indexspace
+
+  \item {read\discretionary {-}{}{}\_\discretionary {-}{}{}courses}
+    \subitem {course.\discretionary {-}{}{}c}, \hyperpage{16}
+    \subitem {course.\discretionary {-}{}{}h}, \hyperpage{18}
+  \item {read\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}
+    \subitem {entrant.\discretionary {-}{}{}c}, \hyperpage{21}
+    \subitem {entrant.\discretionary {-}{}{}h}, \hyperpage{24}
+  \item {read\discretionary {-}{}{}\_\discretionary {-}{}{}event}
+    \subitem {event.\discretionary {-}{}{}c}, \hyperpage{25}
+    \subitem {event.\discretionary {-}{}{}h}, \hyperpage{26}
+  \item {read\discretionary {-}{}{}\_\discretionary {-}{}{}event\discretionary {-}{}{}\_\discretionary {-}{}{}data}
+    \subitem {cp\discretionary {-}{}{}\_\discretionary {-}{}{}time.\discretionary {-}{}{}c}, 
+		\hyperpage{19}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{31}
+  \item {read\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}
+    \subitem {node.\discretionary {-}{}{}c}, \hyperpage{40}
+    \subitem {node.\discretionary {-}{}{}h}, \hyperpage{42}
+  \item {read\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{32}
+    \subitem {track.\discretionary {-}{}{}c}, \hyperpage{44}
+
+  \indexspace
+
+  \item {search\discretionary {-}{}{}\_\discretionary {-}{}{}course\discretionary {-}{}{}\_\discretionary {-}{}{}id}
+    \subitem {course.\discretionary {-}{}{}c}, \hyperpage{16}
+    \subitem {course.\discretionary {-}{}{}h}, \hyperpage{18}
+  \item {show\discretionary {-}{}{}\_\discretionary {-}{}{}menu}
+    \subitem {input.\discretionary {-}{}{}c}, \hyperpage{36}
+    \subitem {input.\discretionary {-}{}{}h}, \hyperpage{39}
+  \item {status}
+    \subitem {entrant}, \hyperpage{8}
+
+  \indexspace
+
+  \item {T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}K}
+    \subitem {track.\discretionary {-}{}{}h}, \hyperpage{46}
+  \item {T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}
+    \subitem {track.\discretionary {-}{}{}h}, \hyperpage{46}
+  \item {tests.\discretionary {-}{}{}h}, \hyperpage{42}
+    \subitem {course\discretionary {-}{}{}\_\discretionary {-}{}{}read}, 
+		\hyperpage{43}
+  \item {time\discretionary {-}{}{}\_\discretionary {-}{}{}struct}, 
+		\hyperpage{11}
+  \item {time\discretionary {-}{}{}\_\discretionary {-}{}{}struct.\discretionary {-}{}{}h}, 
+		\hyperpage{43}
+  \item {track}, \hyperpage{12}
+  \item {track.\discretionary {-}{}{}c}, \hyperpage{44}
+    \subitem {read\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}, 
+		\hyperpage{44}
+    \subitem {validate\discretionary {-}{}{}\_\discretionary {-}{}{}track}, 
+		\hyperpage{44}
+  \item {track.\discretionary {-}{}{}h}, \hyperpage{45}
+    \subitem {T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}K}, 
+		\hyperpage{46}
+    \subitem {T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}, 
+		\hyperpage{46}
+    \subitem {validate\discretionary {-}{}{}\_\discretionary {-}{}{}track}, 
+		\hyperpage{46}
+  \item {track\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{12}
+    \subitem {course\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{6}
+
+  \indexspace
+
+  \item {update\discretionary {-}{}{}\_\discretionary {-}{}{}status}
+    \subitem {entrant.\discretionary {-}{}{}c}, \hyperpage{22}
+    \subitem {functions.\discretionary {-}{}{}h}, \hyperpage{32}
+
+  \indexspace
+
+  \item {validate\discretionary {-}{}{}\_\discretionary {-}{}{}course}
+    \subitem {course.\discretionary {-}{}{}c}, \hyperpage{16}
+    \subitem {course.\discretionary {-}{}{}h}, \hyperpage{18}
+  \item {validate\discretionary {-}{}{}\_\discretionary {-}{}{}track}
+    \subitem {track.\discretionary {-}{}{}c}, \hyperpage{44}
+    \subitem {track.\discretionary {-}{}{}h}, \hyperpage{46}
+
+\end{theindex}

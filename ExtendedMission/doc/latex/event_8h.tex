@@ -1,0 +1,70 @@
+\hypertarget{event_8h}{\section{event.\-h File Reference}
+\label{event_8h}\index{event.\-h@{event.\-h}}
+}
+
+
+This file contains the definition of the event structure and other variables related to the event.  
+
+
+{\ttfamily \#include \char`\"{}entrant.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}node.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}track.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}course.\-h\char`\"{}}\\*
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structevent}{event}
+\begin{DoxyCompactList}\small\item\em The event structure holds information about the event such as the name, date, and time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structevent}{event} \hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T}
+\begin{DoxyCompactList}\small\item\em The event structure holds information about the event such as the name, date, and time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$ \hyperlink{event_8h_ab633f51808f0ee3e98f22ebe33c9c0d9}{read\-\_\-event} (char $\ast$path)
+\begin{DoxyCompactList}\small\item\em This function opens a file containing the name of the event, the date and, the time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains the definition of the event structure and other variables related to the event. \begin{DoxyAuthor}{Author}
+Sindre Smistad \href{mailto:sis13@aber.ac.uk}{\tt sis13@aber.\-ac.\-uk} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012.\-11.\-24 
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{\index{event.\-h@{event.\-h}!E\-V\-E\-N\-T@{E\-V\-E\-N\-T}}
+\index{E\-V\-E\-N\-T@{E\-V\-E\-N\-T}!event.h@{event.\-h}}
+\subsubsection[{E\-V\-E\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf event}  {\bf E\-V\-E\-N\-T}}}\label{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}
+
+
+The event structure holds information about the event such as the name, date, and time. 
+
+The structure also has a array of entrants and a linked list of the course nodes. 
+
+\subsection{Function Documentation}
+\hypertarget{event_8h_ab633f51808f0ee3e98f22ebe33c9c0d9}{\index{event.\-h@{event.\-h}!read\-\_\-event@{read\-\_\-event}}
+\index{read\-\_\-event@{read\-\_\-event}!event.h@{event.\-h}}
+\subsubsection[{read\-\_\-event}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-V\-E\-N\-T}$\ast$ read\-\_\-event (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}}\label{event_8h_ab633f51808f0ee3e98f22ebe33c9c0d9}
+
+
+This function opens a file containing the name of the event, the date and, the time. 
+
+The file has 3 lines each no longer than 79 characters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Path to the file to read.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 if successful, a negative integer otherwise. 
+\end{DoxyReturn}

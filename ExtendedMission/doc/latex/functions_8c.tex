@@ -1,0 +1,291 @@
+\hypertarget{functions_8c}{\section{functions.\-c File Reference}
+\label{functions_8c}\index{functions.\-c@{functions.\-c}}
+}
+
+
+This file contains various functions for the program.  
+
+
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}functions.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}time\-\_\-struct.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}entrant.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}event.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}course.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}cp\-\_\-time.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}node.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}track.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{functions_8c_a6fd65e5dd4a6675850fbfb7aa9931043}{calc\-\_\-time} (\hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$ent)
+\begin{DoxyCompactList}\small\item\em This function calculates the time the entrant has used so far. \end{DoxyCompactList}\item 
+\hyperlink{time__struct_8h_a3bbd7adf563300f0bd980d2ea319881d}{T\-I\-M\-E\-\_\-\-S\-T\-R\-U\-C\-T} $\ast$ \hyperlink{functions_8c_a16126162703b5954bf4be7d5ee46885c}{format\-\_\-time} (char $\ast$time\-\_\-str)
+\begin{DoxyCompactList}\small\item\em Extracts the time from a string, eg 07\-:30, and stores it in the T\-I\-M\-E\-\_\-\-S\-T\-R\-U\-C\-T type. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_aa5cfe623ac1ec191433425112ad5843c}{print\-\_\-entrant\-\_\-header} ()
+\begin{DoxyCompactList}\small\item\em Prints out the header used showing what each colum is. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_ad960ddb1538b7f512079294fe2c26d06}{print\-\_\-entrant} (\hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$\hyperlink{structentrant}{entrant})
+\begin{DoxyCompactList}\small\item\em Prints out nicely formated info about a entrant. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_a3479efd262af2cfd7fba36b22c0ba914}{not\-\_\-started} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event})
+\begin{DoxyCompactList}\small\item\em Prints out a nicely formated list of entrants that has not started yet. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_a264a9788910888a18c7422cc60bdcd70}{finished} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event})
+\begin{DoxyCompactList}\small\item\em Prints out a nicely formated list of entrants that has finished the course. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_a25f830430f83e52fe3d8d491d0d58bcb}{out\-\_\-track} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event})
+\begin{DoxyCompactList}\small\item\em Prints out a nicely formated list of all entrants that are currently out on the track. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_a700d9aa0bde5fbe9aa665db261ff4a89}{print\-\_\-all} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event})
+\begin{DoxyCompactList}\small\item\em Prints out a nicely formated list of all entrants. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_a897f54f7c3620819cda2b870998738b6}{print\-\_\-excluded} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event}, int mc)
+\begin{DoxyCompactList}\small\item\em Prints out the a list of entrants that has been excluded from the race. \end{DoxyCompactList}\item 
+int \hyperlink{functions_8c_a811cbbe167ce60f19dedc51ad00881c6}{entrant\-\_\-finished} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event}, \hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$\hyperlink{structentrant}{entrant})
+\begin{DoxyCompactList}\small\item\em This function checks if a user has finished the course the entrant is attending. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_af68b84e588d5e1f7553c2fe869cec806}{add\-\_\-cp} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event}, char status, \hyperlink{node_8h_a01aae0d1f45b520aec535df5f9d9afb7}{N\-O\-D\-E} $\ast$\hyperlink{structnode}{node}, \hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$ent, char $\ast$time)
+\begin{DoxyCompactList}\small\item\em This function is used to add a check point to a entrant. \end{DoxyCompactList}\item 
+void \hyperlink{functions_8c_a17b806b5bd681dd3fdc493361062faef}{add\-\_\-mc} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event}, char status, \hyperlink{node_8h_a01aae0d1f45b520aec535df5f9d9afb7}{N\-O\-D\-E} $\ast$\hyperlink{structnode}{node}, \hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$ent, char $\ast$time)
+\begin{DoxyCompactList}\small\item\em This function is used to add a medical check point to a entrant. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains various functions for the program. \begin{DoxyAuthor}{Author}
+Sindre Smistad \href{mailto:sis13@aber.ac.uk}{\tt sis13@aber.\-ac.\-uk}
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012.\-12.\-04 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\hypertarget{functions_8c_af68b84e588d5e1f7553c2fe869cec806}{\index{functions.\-c@{functions.\-c}!add\-\_\-cp@{add\-\_\-cp}}
+\index{add\-\_\-cp@{add\-\_\-cp}!functions.c@{functions.\-c}}
+\subsubsection[{add\-\_\-cp}]{\setlength{\rightskip}{0pt plus 5cm}void add\-\_\-cp (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event, }
+\item[{char}]{status, }
+\item[{{\bf N\-O\-D\-E} $\ast$}]{node, }
+\item[{{\bf E\-N\-T\-R\-A\-N\-T} $\ast$}]{ent, }
+\item[{char $\ast$}]{time}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_af68b84e588d5e1f7553c2fe869cec806}
+
+
+This function is used to add a check point to a entrant. 
+
+The function will create a check point list in the entrant if this is the entrant's first check point. If the check point status is 'I' the entrant will be marked as excluded by this function. Total time of the entrant will also be updated. For adding medical checkpoints see add\-\_\-mc.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure with data about the event.\\
+\hline
+{\em status} & The status read from file.\\
+\hline
+{\em node} & Pointer to the node that is the checkpoint.\\
+\hline
+{\em ent} & The entrant that checked in at the check point\\
+\hline
+{\em time} & Time string of the time. \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8c_a17b806b5bd681dd3fdc493361062faef}{\index{functions.\-c@{functions.\-c}!add\-\_\-mc@{add\-\_\-mc}}
+\index{add\-\_\-mc@{add\-\_\-mc}!functions.c@{functions.\-c}}
+\subsubsection[{add\-\_\-mc}]{\setlength{\rightskip}{0pt plus 5cm}void add\-\_\-mc (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event, }
+\item[{char}]{status, }
+\item[{{\bf N\-O\-D\-E} $\ast$}]{node, }
+\item[{{\bf E\-N\-T\-R\-A\-N\-T} $\ast$}]{ent, }
+\item[{char $\ast$}]{time}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a17b806b5bd681dd3fdc493361062faef}
+
+
+This function is used to add a medical check point to a entrant. 
+
+The function will create a check point list in the entrant if this is the entrant's first check point. If the check point status is 'E' the entrant will be marked as excluded by this function. Total time of the entrant will also be updated. For adding normal checkpoints see add\-\_\-cp.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure with data about the event.\\
+\hline
+{\em status} & The status read from file.\\
+\hline
+{\em node} & Pointer to the node that is the checkpoint.\\
+\hline
+{\em ent} & The entrant that checked in at the check point\\
+\hline
+{\em time} & Time string of the time. \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8c_a6fd65e5dd4a6675850fbfb7aa9931043}{\index{functions.\-c@{functions.\-c}!calc\-\_\-time@{calc\-\_\-time}}
+\index{calc\-\_\-time@{calc\-\_\-time}!functions.c@{functions.\-c}}
+\subsubsection[{calc\-\_\-time}]{\setlength{\rightskip}{0pt plus 5cm}void calc\-\_\-time (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-N\-T\-R\-A\-N\-T} $\ast$}]{ent}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a6fd65e5dd4a6675850fbfb7aa9931043}
+
+
+This function calculates the time the entrant has used so far. 
+
+The time is calculated by substracting the current time with the start time. Error checking is then done on the result to counter in the cases where the time used is less than a whole hour.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ent} & Entrant structure used to get the start time, current time and updating the total\-\_\-time member. \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8c_a811cbbe167ce60f19dedc51ad00881c6}{\index{functions.\-c@{functions.\-c}!entrant\-\_\-finished@{entrant\-\_\-finished}}
+\index{entrant\-\_\-finished@{entrant\-\_\-finished}!functions.c@{functions.\-c}}
+\subsubsection[{entrant\-\_\-finished}]{\setlength{\rightskip}{0pt plus 5cm}int entrant\-\_\-finished (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event, }
+\item[{{\bf E\-N\-T\-R\-A\-N\-T} $\ast$}]{entrant}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a811cbbe167ce60f19dedc51ad00881c6}
+
+
+This function checks if a user has finished the course the entrant is attending. 
+
+The function creates a array of all check points in the course where time is recorded. It then compares the contents of the array with the checkpoints the entrant has been to. If they are in the same order and equal the entrant is finished.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure containing data the function needs.\\
+\hline
+{\em entrant} & The entrant you want to check.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the entrant is finished 1 is returned, if the entrant is not finished 0 is returned. If the entrant has taken a wrong turn somewhere and checked in at a wrong check point -\/1 is returned. 
+\end{DoxyReturn}
+\hypertarget{functions_8c_a264a9788910888a18c7422cc60bdcd70}{\index{functions.\-c@{functions.\-c}!finished@{finished}}
+\index{finished@{finished}!functions.c@{functions.\-c}}
+\subsubsection[{finished}]{\setlength{\rightskip}{0pt plus 5cm}void finished (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a264a9788910888a18c7422cc60bdcd70}
+
+
+Prints out a nicely formated list of entrants that has finished the course. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure. \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8c_a16126162703b5954bf4be7d5ee46885c}{\index{functions.\-c@{functions.\-c}!format\-\_\-time@{format\-\_\-time}}
+\index{format\-\_\-time@{format\-\_\-time}!functions.c@{functions.\-c}}
+\subsubsection[{format\-\_\-time}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-I\-M\-E\-\_\-\-S\-T\-R\-U\-C\-T}$\ast$ format\-\_\-time (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{time\-\_\-str}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a16126162703b5954bf4be7d5ee46885c}
+
+
+Extracts the time from a string, eg 07\-:30, and stores it in the T\-I\-M\-E\-\_\-\-S\-T\-R\-U\-C\-T type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time\-\_\-str} & The string containing the time you want to extract.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If successful the function returns a pointer to a T\-I\-M\-E\-\_\-\-S\-T\-R\-U\-C\-T. N\-U\-L\-L is returned if the function fails. 
+\end{DoxyReturn}
+\hypertarget{functions_8c_a3479efd262af2cfd7fba36b22c0ba914}{\index{functions.\-c@{functions.\-c}!not\-\_\-started@{not\-\_\-started}}
+\index{not\-\_\-started@{not\-\_\-started}!functions.c@{functions.\-c}}
+\subsubsection[{not\-\_\-started}]{\setlength{\rightskip}{0pt plus 5cm}void not\-\_\-started (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a3479efd262af2cfd7fba36b22c0ba914}
+
+
+Prints out a nicely formated list of entrants that has not started yet. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure. \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8c_a25f830430f83e52fe3d8d491d0d58bcb}{\index{functions.\-c@{functions.\-c}!out\-\_\-track@{out\-\_\-track}}
+\index{out\-\_\-track@{out\-\_\-track}!functions.c@{functions.\-c}}
+\subsubsection[{out\-\_\-track}]{\setlength{\rightskip}{0pt plus 5cm}void out\-\_\-track (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a25f830430f83e52fe3d8d491d0d58bcb}
+
+
+Prints out a nicely formated list of all entrants that are currently out on the track. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure. \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8c_a700d9aa0bde5fbe9aa665db261ff4a89}{\index{functions.\-c@{functions.\-c}!print\-\_\-all@{print\-\_\-all}}
+\index{print\-\_\-all@{print\-\_\-all}!functions.c@{functions.\-c}}
+\subsubsection[{print\-\_\-all}]{\setlength{\rightskip}{0pt plus 5cm}void print\-\_\-all (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a700d9aa0bde5fbe9aa665db261ff4a89}
+
+
+Prints out a nicely formated list of all entrants. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure. \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8c_ad960ddb1538b7f512079294fe2c26d06}{\index{functions.\-c@{functions.\-c}!print\-\_\-entrant@{print\-\_\-entrant}}
+\index{print\-\_\-entrant@{print\-\_\-entrant}!functions.c@{functions.\-c}}
+\subsubsection[{print\-\_\-entrant}]{\setlength{\rightskip}{0pt plus 5cm}void print\-\_\-entrant (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-N\-T\-R\-A\-N\-T} $\ast$}]{entrant}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_ad960ddb1538b7f512079294fe2c26d06}
+
+
+Prints out nicely formated info about a entrant. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entrant} & The entrant to print out. \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8c_aa5cfe623ac1ec191433425112ad5843c}{\index{functions.\-c@{functions.\-c}!print\-\_\-entrant\-\_\-header@{print\-\_\-entrant\-\_\-header}}
+\index{print\-\_\-entrant\-\_\-header@{print\-\_\-entrant\-\_\-header}!functions.c@{functions.\-c}}
+\subsubsection[{print\-\_\-entrant\-\_\-header}]{\setlength{\rightskip}{0pt plus 5cm}void print\-\_\-entrant\-\_\-header (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_aa5cfe623ac1ec191433425112ad5843c}
+
+
+Prints out the header used showing what each colum is. 
+
+I\-D Name Course Status Start time Total time \hypertarget{functions_8c_a897f54f7c3620819cda2b870998738b6}{\index{functions.\-c@{functions.\-c}!print\-\_\-excluded@{print\-\_\-excluded}}
+\index{print\-\_\-excluded@{print\-\_\-excluded}!functions.c@{functions.\-c}}
+\subsubsection[{print\-\_\-excluded}]{\setlength{\rightskip}{0pt plus 5cm}void print\-\_\-excluded (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event, }
+\item[{int}]{mc}
+\end{DoxyParamCaption}
+)}}\label{functions_8c_a897f54f7c3620819cda2b870998738b6}
+
+
+Prints out the a list of entrants that has been excluded from the race. 
+
+The mc parameter is used to determine if entrants that has been excluded for medical reason should be printed out, or entrants who have been excluded for taking the wrong turn somewhere.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure containing the list of entrants.\\
+\hline
+{\em mc} & If 1 entrants that has been excluded for medical reasons will be printed out. If 0 entrants which has been excluded for taking the wrong turn will be printed out. \\
+\hline
+\end{DoxyParams}

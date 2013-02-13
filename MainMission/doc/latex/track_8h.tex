@@ -1,0 +1,84 @@
+\hypertarget{track_8h}{\section{track.\-h File Reference}
+\label{track_8h}\index{track.\-h@{track.\-h}}
+}
+
+
+This file contains the definition of the track structure.  
+
+
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structtrack}{track}
+\begin{DoxyCompactList}\small\item\em This structure holds the information about each track. \end{DoxyCompactList}\item 
+struct \hyperlink{structtrack__list}{track\-\_\-list}
+\begin{DoxyCompactList}\small\item\em This is the track list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structtrack}{track} \hyperlink{track_8h_a1168d7895be9688fc0d8644aab306d6b}{T\-R\-A\-C\-K}
+\begin{DoxyCompactList}\small\item\em This structure holds the information about each track. \end{DoxyCompactList}\item 
+typedef struct \hyperlink{structtrack__list}{track\-\_\-list} \hyperlink{track_8h_a74548625073be9665a690d126e4daf4f}{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T}
+\begin{DoxyCompactList}\small\item\em This is the track list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{track_8h_a29f6ad778b825576d7ea16d67933fefb}{validate\-\_\-track} (int node\-\_\-one, int node\-\_\-two, \hyperlink{track_8h_a1168d7895be9688fc0d8644aab306d6b}{T\-R\-A\-C\-K} \hyperlink{structtrack}{track})
+\begin{DoxyCompactList}\small\item\em Checks if the given track is between the given nodes. \end{DoxyCompactList}\item 
+\hypertarget{track_8h_adeddb328074cd216828f1d0626ec20e6}{void {\bfseries free\-\_\-track} (\hyperlink{track_8h_a74548625073be9665a690d126e4daf4f}{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T} $\ast$\hyperlink{structtrack__list}{track\-\_\-list})}\label{track_8h_adeddb328074cd216828f1d0626ec20e6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains the definition of the track structure. \begin{DoxyAuthor}{Author}
+Sindre Smistad \href{mailto:sis13@aber.ac.uk}{\tt sis13@aber.\-ac.\-uk}
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012.\-11.\-24 
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{track_8h_a1168d7895be9688fc0d8644aab306d6b}{\index{track.\-h@{track.\-h}!T\-R\-A\-C\-K@{T\-R\-A\-C\-K}}
+\index{T\-R\-A\-C\-K@{T\-R\-A\-C\-K}!track.h@{track.\-h}}
+\subsubsection[{T\-R\-A\-C\-K}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf track}  {\bf T\-R\-A\-C\-K}}}\label{track_8h_a1168d7895be9688fc0d8644aab306d6b}
+
+
+This structure holds the information about each track. 
+
+The structure also has a pinter to the another track to act as a linked list. \hypertarget{track_8h_a74548625073be9665a690d126e4daf4f}{\index{track.\-h@{track.\-h}!T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T@{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T}}
+\index{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T@{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T}!track.h@{track.\-h}}
+\subsubsection[{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf track\-\_\-list}  {\bf T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T}}}\label{track_8h_a74548625073be9665a690d126e4daf4f}
+
+
+This is the track list. 
+
+It is used to easily pass around the list and information about it to make working with it easier. 
+
+\subsection{Function Documentation}
+\hypertarget{track_8h_a29f6ad778b825576d7ea16d67933fefb}{\index{track.\-h@{track.\-h}!validate\-\_\-track@{validate\-\_\-track}}
+\index{validate\-\_\-track@{validate\-\_\-track}!track.h@{track.\-h}}
+\subsubsection[{validate\-\_\-track}]{\setlength{\rightskip}{0pt plus 5cm}int validate\-\_\-track (
+\begin{DoxyParamCaption}
+\item[{int}]{node\-\_\-one, }
+\item[{int}]{node\-\_\-two, }
+\item[{{\bf T\-R\-A\-C\-K}}]{track}
+\end{DoxyParamCaption}
+)}}\label{track_8h_a29f6ad778b825576d7ea16d67933fefb}
+
+
+Checks if the given track is between the given nodes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\-\_\-one} & I\-D of one of the N\-O\-D\-Es.\\
+\hline
+{\em node\-\_\-two} & The I\-D of the other N\-O\-D\-E.\\
+\hline
+{\em track} & The T\-R\-A\-C\-K you want to check.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 if the T\-R\-A\-C\-K is between N\-O\-D\-Es. If fails 0 is returned. 
+\end{DoxyReturn}

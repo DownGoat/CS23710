@@ -1,0 +1,252 @@
+Script started on Fri 14 Dec 2012 12:09:40 GMT
+[01;32msis13@Yuki[01;34m ~/Dropbox/CS23710_C_and_Unix/BigBrother $[00m ./mainmission 
+Please enter a path to a file containing event name and date:
+>>> data/name.txt
+[i] Event loaded!
+
+Please enter a path to a file containing node data:
+>>> data/nodes.txt
+[i] 14 nodes loaded from 'data/nodes.txt'.
+
+Please enter a path to a file containing track data:
+>>> data/tracks.txt
+[i] 16 tracks loaded from 'data/tracks.txt'.
+
+Please enter a path to a file containing courses:
+>>> data/courses.txt
+[i] 3 courses loaded from 'data/courses.txt'.
+
+Please enter a path to a file containing entrant data:data/entrants.txt
+[i] 14 entrants loaded from 'data/entrants.txt'.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 3
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Donald Duck                                       D         Not Started    N/A            N/A       
+2    Mickey Mouse                                      D         Not Started    N/A            N/A       
+3    Jemima Julieta Mouse                              E         Not Started    N/A            N/A       
+4    Minnie Duck                                       F         Not Started    N/A            N/A       
+5    Minnie Mouse                                      E         Not Started    N/A            N/A       
+6    Minnie Mouse Junior                               E         Not Started    N/A            N/A       
+7    Deputy Doug                                       D         Not Started    N/A            N/A       
+8    Deputy Duck                                       D         Not Started    N/A            N/A       
+9    Bewick Swan                                       F         Not Started    N/A            N/A       
+10   Black Swan                                        F         Not Started    N/A            N/A       
+11   Albert Einstein                                   E         Not Started    N/A            N/A       
+12   Albert Mouse                                      D         Not Started    N/A            N/A       
+13   Donald Duck Senior                                E         Not Started    N/A            N/A       
+14   Egbert Einstein                                   F         Not Started    N/A            N/A       
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 2
+
+1. From file.
+2. Enter manually:
+0. Back
+>> 1
+
+Please enter a path to a file containing check point data:
+0. Back.
+>>> data/cp_times_1.txt
+[i] Checkpoint data loaded.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 3
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Donald Duck                                       D         9              07:30          1H 16M    
+2    Mickey Mouse                                      D         9              07:35          1H 14M    
+3    Jemima Julieta Mouse                              E         9              07:39          1H 41M    
+4    Minnie Duck                                       F         9              07:43          1H 50M    
+5    Minnie Mouse                                      E         9              07:47          1H 48M    
+6    Minnie Mouse Junior                               E         9              07:51          1H 46M    
+7    Deputy Doug                                       D         5              07:56          1H 52M    
+8    Deputy Duck                                       D         4              08:01          0H 41M    
+9    Bewick Swan                                       F         9              08:05          0H 44M    
+10   Black Swan                                        F         9              08:10          0H 44M    
+11   Albert Einstein                                   E         Started        08:14          0H 0M     
+12   Albert Mouse                                      D         Started        08:18          0H 0M     
+13   Donald Duck Senior                                E         Started        08:22          0H 0M     
+14   Egbert Einstein                                   F         Started        08:26          0H 0M     
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 1
+
+Search by name or entrant number?
+1. Number.
+2. Name.
+
+0. Back
+>> 1
+
+Please enter a entrant ID:
+0. Back.
+>> 1
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Donald Duck                                       D         9              07:30          1H 16M    
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 1
+
+Search by name or entrant number?
+1. Number.
+2. Name.
+
+0. Back
+>> 2
+
+Please enter entrant name:
+0. Back
+>> Donal ld Duck
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Donald Duck                                       D         9              07:30          1H 16M    
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 2
+
+1. From file.
+2. Enter manually:
+0. Back
+>> 1
+
+Please enter a path to a file containing check point data:
+0. Back.
+>>> cp  data/cp_times_2.txt
+[i] Checkpoint data loaded.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 3
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Donald Duck                                       D         Finished       07:30          2H 1M     
+2    Mickey Mouse                                      D         Finished       07:35          2H 59M    
+3    Jemima Julieta Mouse                              E         Finished       07:39          2H 3M     
+4    Minnie Duck                                       F         Finished       07:43          2H 3M     
+5    Minnie Mouse                                      E         Finished       07:47          3H 18M    
+6    Minnie Mouse Junior                               E         Finished       07:51          2H 7M     
+7    Deputy Doug                                       D         Finished       07:56          3H 6M     
+8    Deputy Duck                                       D         Finished       08:01          2H 10M    
+9    Bewick Swan                                       F         Finished       08:05          1H 51M    
+10   Black Swan                                        F         Finished       08:10          2H 59M    
+11   Albert Einstein                                   E         Finished       08:14          2H 12M    
+12   Albert Mouse                                      D         Finished       08:18          2H 5M     
+13   Donald Duck Senior                                E         Finished       08:22          2H 11M    
+14   Egbert Einstein                                   F         Finished       08:26          2H 54M    
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 4
+
+All entrants has started.
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 5
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Donald Duck                                       D         Finished       07:30          2H 1M     
+2    Mickey Mouse                                      D         Finished       07:35          2H 59M    
+3    Jemima Julieta Mouse                              E         Finished       07:39          2H 3M     
+4    Minnie Duck                                       F         Finished       07:43          2H 3M     
+5    Minnie Mouse                                      E         Finished       07:47          3H 18M    
+6    Minnie Mouse Junior                               E         Finished       07:51          2H 7M     
+7    Deputy Doug                                       D         Finished       07:56          3H 6M     
+8    Deputy Duck                                       D         Finished       08:01          2H 10M    
+9    Bewick Swan                                       F         Finished       08:05          1H 51M    
+10   Black Swan                                        F         Finished       08:10          2H 59M    
+11   Albert Einstein                                   E         Finished       08:14          2H 12M    
+12   Albert Mouse                                      D         Finished       08:18          2H 5M     
+13   Donald Duck Senior                                E         Finished       08:22          2H 11M    
+14   Egbert Einstein                                   F         Finished       08:26          2H 54M    
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 6
+
+No entrants are out on the track.
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 0
+[01;32msis13@Yuki[01;34m ~/Dropbox/CS23710_C_and_Unix/BigBrother $[00m exit
+
+Script done on Fri 14 Dec 2012 12:11:29 GMT

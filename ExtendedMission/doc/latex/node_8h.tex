@@ -1,0 +1,103 @@
+\hypertarget{node_8h}{\section{node.\-h File Reference}
+\label{node_8h}\index{node.\-h@{node.\-h}}
+}
+
+
+This file contains the definition of the node data structure and definitions of functions used to work with the data structure.  
+
+
+{\ttfamily \#include \char`\"{}track.\-h\char`\"{}}\\*
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structnode}{node}
+\begin{DoxyCompactList}\small\item\em The node data structure represents a checkpoint in the course. \end{DoxyCompactList}\item 
+struct \hyperlink{structnode__list}{node\-\_\-list}
+\begin{DoxyCompactList}\small\item\em This is the node list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structnode}{node} \hyperlink{node_8h_a01aae0d1f45b520aec535df5f9d9afb7}{N\-O\-D\-E}
+\begin{DoxyCompactList}\small\item\em The node data structure represents a checkpoint in the course. \end{DoxyCompactList}\item 
+typedef struct \hyperlink{structnode__list}{node\-\_\-list} \hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T}
+\begin{DoxyCompactList}\small\item\em This is the node list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{node_8h_a01aae0d1f45b520aec535df5f9d9afb7}{N\-O\-D\-E} $\ast$ \hyperlink{node_8h_a15fb87711b77bba9c820fc971ccf01a4}{node\-\_\-id\-\_\-search} (int id, \hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$list)
+\begin{DoxyCompactList}\small\item\em This function searches for a node with a given I\-D. \end{DoxyCompactList}\item 
+\hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{node_8h_a31a7884552287a4e02859bc5a0fde1e8}{read\-\_\-nodes} (char $\ast$path)
+\begin{DoxyCompactList}\small\item\em This functions read in nodes from file and creates a linked list of the nodes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains the definition of the node data structure and definitions of functions used to work with the data structure. \begin{DoxyAuthor}{Author}
+Sindre Smistad \href{mailto:sis13@aber.ac.uk}{\tt sis13@aber.\-ac.\-uk}
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012.\-11.\-25 
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{node_8h_a01aae0d1f45b520aec535df5f9d9afb7}{\index{node.\-h@{node.\-h}!N\-O\-D\-E@{N\-O\-D\-E}}
+\index{N\-O\-D\-E@{N\-O\-D\-E}!node.h@{node.\-h}}
+\subsubsection[{N\-O\-D\-E}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf node}  {\bf N\-O\-D\-E}}}\label{node_8h_a01aae0d1f45b520aec535df5f9d9afb7}
+
+
+The node data structure represents a checkpoint in the course. 
+
+There are several different checkpoints. Each node is identified by a positive integer. The data structure is also a linked list and has a pointer to the next element in the list. \hypertarget{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{\index{node.\-h@{node.\-h}!N\-O\-D\-E\-\_\-\-L\-I\-S\-T@{N\-O\-D\-E\-\_\-\-L\-I\-S\-T}}
+\index{N\-O\-D\-E\-\_\-\-L\-I\-S\-T@{N\-O\-D\-E\-\_\-\-L\-I\-S\-T}!node.h@{node.\-h}}
+\subsubsection[{N\-O\-D\-E\-\_\-\-L\-I\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf node\-\_\-list}  {\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T}}}\label{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}
+
+
+This is the node list. 
+
+It is used to easily pass around the list and information about it to make working with it easier. 
+
+\subsection{Function Documentation}
+\hypertarget{node_8h_a15fb87711b77bba9c820fc971ccf01a4}{\index{node.\-h@{node.\-h}!node\-\_\-id\-\_\-search@{node\-\_\-id\-\_\-search}}
+\index{node\-\_\-id\-\_\-search@{node\-\_\-id\-\_\-search}!node.h@{node.\-h}}
+\subsubsection[{node\-\_\-id\-\_\-search}]{\setlength{\rightskip}{0pt plus 5cm}{\bf N\-O\-D\-E}$\ast$ node\-\_\-id\-\_\-search (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{{\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$}]{list}
+\end{DoxyParamCaption}
+)}}\label{node_8h_a15fb87711b77bba9c820fc971ccf01a4}
+
+
+This function searches for a node with a given I\-D. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The I\-D of the node you want to search for.\\
+\hline
+{\em list} & Pointer to the list, this list is the list that will be searched.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the node is found the function returns the a pointer to the node. If the node is not found it will return N\-U\-L\-L. 
+\end{DoxyReturn}
+\hypertarget{node_8h_a31a7884552287a4e02859bc5a0fde1e8}{\index{node.\-h@{node.\-h}!read\-\_\-nodes@{read\-\_\-nodes}}
+\index{read\-\_\-nodes@{read\-\_\-nodes}!node.h@{node.\-h}}
+\subsubsection[{read\-\_\-nodes}]{\setlength{\rightskip}{0pt plus 5cm}{\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T}$\ast$ read\-\_\-nodes (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}}\label{node_8h_a31a7884552287a4e02859bc5a0fde1e8}
+
+
+This functions read in nodes from file and creates a linked list of the nodes. 
+
+The data should contain a node I\-D and a short string used to identify what type of node the node is.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Path to the file where the node data is stored.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns a pointer to the first N\-O\-D\-E in the linked list. Returns N\-U\-L\-L if something went wrong. 
+\end{DoxyReturn}
+Need to set a start if it hasn't been done yet. 

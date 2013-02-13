@@ -1,0 +1,186 @@
+\contentsline {chapter}{\numberline {1}Data Structure Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Data Structures}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Data Structure Documentation}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}course Struct Reference}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Field Documentation}{5}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}course\discretionary {-}{}{}\_\discretionary {-}{}{}id}{5}{subsubsection.3.1.2.1}
+\contentsline {section}{\numberline {3.2}course\discretionary {-}{}{}\_\discretionary {-}{}{}list Struct Reference}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{6}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Field Documentation}{6}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}entrants}{6}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}node\discretionary {-}{}{}\_\discretionary {-}{}{}list}{6}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}track\discretionary {-}{}{}\_\discretionary {-}{}{}list}{6}{subsubsection.3.2.2.3}
+\contentsline {section}{\numberline {3.3}cp\discretionary {-}{}{}\_\discretionary {-}{}{}time Struct Reference}{7}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{7}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}cp\discretionary {-}{}{}\_\discretionary {-}{}{}time\discretionary {-}{}{}\_\discretionary {-}{}{}list Struct Reference}{7}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Detailed Description}{7}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}entrant Struct Reference}{8}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Detailed Description}{8}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Field Documentation}{8}{subsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.2.1}excluded}{8}{subsubsection.3.5.2.1}
+\contentsline {subsubsection}{\numberline {3.5.2.2}mc\discretionary {-}{}{}\_\discretionary {-}{}{}excluded}{8}{subsubsection.3.5.2.2}
+\contentsline {subsubsection}{\numberline {3.5.2.3}status}{9}{subsubsection.3.5.2.3}
+\contentsline {section}{\numberline {3.6}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}list Struct Reference}{9}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Detailed Description}{9}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.7}event Struct Reference}{9}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Detailed Description}{10}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Field Documentation}{10}{subsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.2.1}date}{10}{subsubsection.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2.2}entrants}{10}{subsubsection.3.7.2.2}
+\contentsline {subsubsection}{\numberline {3.7.2.3}name}{10}{subsubsection.3.7.2.3}
+\contentsline {section}{\numberline {3.8}node Struct Reference}{10}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Detailed Description}{11}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Field Documentation}{11}{subsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.2.1}node\discretionary {-}{}{}\_\discretionary {-}{}{}id}{11}{subsubsection.3.8.2.1}
+\contentsline {section}{\numberline {3.9}node\discretionary {-}{}{}\_\discretionary {-}{}{}list Struct Reference}{11}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Detailed Description}{11}{subsection.3.9.1}
+\contentsline {section}{\numberline {3.10}time\discretionary {-}{}{}\_\discretionary {-}{}{}struct Struct Reference}{11}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Detailed Description}{12}{subsection.3.10.1}
+\contentsline {section}{\numberline {3.11}track Struct Reference}{12}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Detailed Description}{12}{subsection.3.11.1}
+\contentsline {section}{\numberline {3.12}track\discretionary {-}{}{}\_\discretionary {-}{}{}list Struct Reference}{12}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Detailed Description}{13}{subsection.3.12.1}
+\contentsline {chapter}{\numberline {4}File Documentation}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}course.\discretionary {-}{}{}c File Reference}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{15}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Function Documentation}{16}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}read\discretionary {-}{}{}\_\discretionary {-}{}{}courses}{16}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}search\discretionary {-}{}{}\_\discretionary {-}{}{}course\discretionary {-}{}{}\_\discretionary {-}{}{}id}{16}{subsubsection.4.1.2.2}
+\contentsline {subsubsection}{\numberline {4.1.2.3}validate\discretionary {-}{}{}\_\discretionary {-}{}{}course}{16}{subsubsection.4.1.2.3}
+\contentsline {section}{\numberline {4.2}course.\discretionary {-}{}{}h File Reference}{16}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{17}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Typedef Documentation}{17}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}C\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}R\discretionary {-}{}{}S\discretionary {-}{}{}E}{17}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}C\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}R\discretionary {-}{}{}S\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}{17}{subsubsection.4.2.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Function Documentation}{18}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}read\discretionary {-}{}{}\_\discretionary {-}{}{}courses}{18}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}search\discretionary {-}{}{}\_\discretionary {-}{}{}course\discretionary {-}{}{}\_\discretionary {-}{}{}id}{18}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.3}validate\discretionary {-}{}{}\_\discretionary {-}{}{}course}{18}{subsubsection.4.2.3.3}
+\contentsline {section}{\numberline {4.3}cp\discretionary {-}{}{}\_\discretionary {-}{}{}time.\discretionary {-}{}{}c File Reference}{19}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{19}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Function Documentation}{19}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}read\discretionary {-}{}{}\_\discretionary {-}{}{}event\discretionary {-}{}{}\_\discretionary {-}{}{}data}{19}{subsubsection.4.3.2.1}
+\contentsline {section}{\numberline {4.4}cp\discretionary {-}{}{}\_\discretionary {-}{}{}time.\discretionary {-}{}{}h File Reference}{19}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{20}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}entrant.\discretionary {-}{}{}c File Reference}{20}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{21}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Function Documentation}{21}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}{21}{subsubsection.4.5.2.1}
+\contentsline {subsubsection}{\numberline {4.5.2.2}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}name\discretionary {-}{}{}\_\discretionary {-}{}{}search}{21}{subsubsection.4.5.2.2}
+\contentsline {subsubsection}{\numberline {4.5.2.3}read\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}{21}{subsubsection.4.5.2.3}
+\contentsline {subsubsection}{\numberline {4.5.2.4}update\discretionary {-}{}{}\_\discretionary {-}{}{}status}{22}{subsubsection.4.5.2.4}
+\contentsline {section}{\numberline {4.6}entrant.\discretionary {-}{}{}h File Reference}{22}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{23}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Typedef Documentation}{23}{subsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2.1}E\discretionary {-}{}{}N\discretionary {-}{}{}T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}N\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}{23}{subsubsection.4.6.2.1}
+\contentsline {subsection}{\numberline {4.6.3}Function Documentation}{23}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}{23}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}name\discretionary {-}{}{}\_\discretionary {-}{}{}search}{23}{subsubsection.4.6.3.2}
+\contentsline {subsubsection}{\numberline {4.6.3.3}print\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}{24}{subsubsection.4.6.3.3}
+\contentsline {subsubsection}{\numberline {4.6.3.4}print\discretionary {-}{}{}\_\discretionary {-}{}{}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}header}{24}{subsubsection.4.6.3.4}
+\contentsline {subsubsection}{\numberline {4.6.3.5}read\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}{24}{subsubsection.4.6.3.5}
+\contentsline {section}{\numberline {4.7}event.\discretionary {-}{}{}c File Reference}{24}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{25}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Function Documentation}{25}{subsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.2.1}read\discretionary {-}{}{}\_\discretionary {-}{}{}event}{25}{subsubsection.4.7.2.1}
+\contentsline {section}{\numberline {4.8}event.\discretionary {-}{}{}h File Reference}{25}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{26}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Typedef Documentation}{26}{subsection.4.8.2}
+\contentsline {subsubsection}{\numberline {4.8.2.1}E\discretionary {-}{}{}V\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}T}{26}{subsubsection.4.8.2.1}
+\contentsline {subsection}{\numberline {4.8.3}Function Documentation}{26}{subsection.4.8.3}
+\contentsline {subsubsection}{\numberline {4.8.3.1}read\discretionary {-}{}{}\_\discretionary {-}{}{}event}{26}{subsubsection.4.8.3.1}
+\contentsline {section}{\numberline {4.9}functions.\discretionary {-}{}{}c File Reference}{26}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{27}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Function Documentation}{27}{subsection.4.9.2}
+\contentsline {subsubsection}{\numberline {4.9.2.1}add\discretionary {-}{}{}\_\discretionary {-}{}{}cp}{27}{subsubsection.4.9.2.1}
+\contentsline {subsubsection}{\numberline {4.9.2.2}add\discretionary {-}{}{}\_\discretionary {-}{}{}mc}{28}{subsubsection.4.9.2.2}
+\contentsline {subsubsection}{\numberline {4.9.2.3}calc\discretionary {-}{}{}\_\discretionary {-}{}{}time}{28}{subsubsection.4.9.2.3}
+\contentsline {subsubsection}{\numberline {4.9.2.4}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}finished}{28}{subsubsection.4.9.2.4}
+\contentsline {subsubsection}{\numberline {4.9.2.5}finished}{28}{subsubsection.4.9.2.5}
+\contentsline {subsubsection}{\numberline {4.9.2.6}format\discretionary {-}{}{}\_\discretionary {-}{}{}time}{29}{subsubsection.4.9.2.6}
+\contentsline {subsubsection}{\numberline {4.9.2.7}not\discretionary {-}{}{}\_\discretionary {-}{}{}started}{29}{subsubsection.4.9.2.7}
+\contentsline {subsubsection}{\numberline {4.9.2.8}out\discretionary {-}{}{}\_\discretionary {-}{}{}track}{29}{subsubsection.4.9.2.8}
+\contentsline {subsubsection}{\numberline {4.9.2.9}print\discretionary {-}{}{}\_\discretionary {-}{}{}all}{29}{subsubsection.4.9.2.9}
+\contentsline {subsubsection}{\numberline {4.9.2.10}print\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}{29}{subsubsection.4.9.2.10}
+\contentsline {subsubsection}{\numberline {4.9.2.11}print\discretionary {-}{}{}\_\discretionary {-}{}{}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}header}{29}{subsubsection.4.9.2.11}
+\contentsline {subsubsection}{\numberline {4.9.2.12}print\discretionary {-}{}{}\_\discretionary {-}{}{}excluded}{30}{subsubsection.4.9.2.12}
+\contentsline {section}{\numberline {4.10}functions.\discretionary {-}{}{}h File Reference}{30}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{31}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Function Documentation}{31}{subsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.2.1}add\discretionary {-}{}{}\_\discretionary {-}{}{}cp}{31}{subsubsection.4.10.2.1}
+\contentsline {subsubsection}{\numberline {4.10.2.2}add\discretionary {-}{}{}\_\discretionary {-}{}{}mc}{31}{subsubsection.4.10.2.2}
+\contentsline {subsubsection}{\numberline {4.10.2.3}calc\discretionary {-}{}{}\_\discretionary {-}{}{}time}{31}{subsubsection.4.10.2.3}
+\contentsline {subsubsection}{\numberline {4.10.2.4}entrant\discretionary {-}{}{}\_\discretionary {-}{}{}finished}{32}{subsubsection.4.10.2.4}
+\contentsline {subsubsection}{\numberline {4.10.2.5}finished}{32}{subsubsection.4.10.2.5}
+\contentsline {subsubsection}{\numberline {4.10.2.6}format\discretionary {-}{}{}\_\discretionary {-}{}{}time}{32}{subsubsection.4.10.2.6}
+\contentsline {subsubsection}{\numberline {4.10.2.7}not\discretionary {-}{}{}\_\discretionary {-}{}{}started}{32}{subsubsection.4.10.2.7}
+\contentsline {subsubsection}{\numberline {4.10.2.8}out\discretionary {-}{}{}\_\discretionary {-}{}{}track}{32}{subsubsection.4.10.2.8}
+\contentsline {subsubsection}{\numberline {4.10.2.9}print\discretionary {-}{}{}\_\discretionary {-}{}{}all}{33}{subsubsection.4.10.2.9}
+\contentsline {subsubsection}{\numberline {4.10.2.10}print\discretionary {-}{}{}\_\discretionary {-}{}{}excluded}{33}{subsubsection.4.10.2.10}
+\contentsline {subsubsection}{\numberline {4.10.2.11}read\discretionary {-}{}{}\_\discretionary {-}{}{}event\discretionary {-}{}{}\_\discretionary {-}{}{}data}{33}{subsubsection.4.10.2.11}
+\contentsline {subsubsection}{\numberline {4.10.2.12}read\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}{33}{subsubsection.4.10.2.12}
+\contentsline {subsubsection}{\numberline {4.10.2.13}update\discretionary {-}{}{}\_\discretionary {-}{}{}status}{33}{subsubsection.4.10.2.13}
+\contentsline {section}{\numberline {4.11}input.\discretionary {-}{}{}c File Reference}{34}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{34}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.2}Function Documentation}{35}{subsection.4.11.2}
+\contentsline {subsubsection}{\numberline {4.11.2.1}ask\discretionary {-}{}{}\_\discretionary {-}{}{}int}{35}{subsubsection.4.11.2.1}
+\contentsline {subsubsection}{\numberline {4.11.2.2}ask\discretionary {-}{}{}\_\discretionary {-}{}{}str}{35}{subsubsection.4.11.2.2}
+\contentsline {subsubsection}{\numberline {4.11.2.3}get\discretionary {-}{}{}\_\discretionary {-}{}{}courses}{35}{subsubsection.4.11.2.3}
+\contentsline {subsubsection}{\numberline {4.11.2.4}get\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}{35}{subsubsection.4.11.2.4}
+\contentsline {subsubsection}{\numberline {4.11.2.5}get\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}{36}{subsubsection.4.11.2.5}
+\contentsline {subsubsection}{\numberline {4.11.2.6}get\discretionary {-}{}{}\_\discretionary {-}{}{}event}{36}{subsubsection.4.11.2.6}
+\contentsline {subsubsection}{\numberline {4.11.2.7}get\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}{36}{subsubsection.4.11.2.7}
+\contentsline {subsubsection}{\numberline {4.11.2.8}get\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}{36}{subsubsection.4.11.2.8}
+\contentsline {subsubsection}{\numberline {4.11.2.9}load\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}{36}{subsubsection.4.11.2.9}
+\contentsline {subsubsection}{\numberline {4.11.2.10}query\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}{37}{subsubsection.4.11.2.10}
+\contentsline {subsubsection}{\numberline {4.11.2.11}show\discretionary {-}{}{}\_\discretionary {-}{}{}menu}{37}{subsubsection.4.11.2.11}
+\contentsline {section}{\numberline {4.12}input.\discretionary {-}{}{}h File Reference}{37}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{38}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.2}Function Documentation}{38}{subsection.4.12.2}
+\contentsline {subsubsection}{\numberline {4.12.2.1}ask\discretionary {-}{}{}\_\discretionary {-}{}{}int}{38}{subsubsection.4.12.2.1}
+\contentsline {subsubsection}{\numberline {4.12.2.2}ask\discretionary {-}{}{}\_\discretionary {-}{}{}str}{38}{subsubsection.4.12.2.2}
+\contentsline {subsubsection}{\numberline {4.12.2.3}get\discretionary {-}{}{}\_\discretionary {-}{}{}courses}{38}{subsubsection.4.12.2.3}
+\contentsline {subsubsection}{\numberline {4.12.2.4}get\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}{39}{subsubsection.4.12.2.4}
+\contentsline {subsubsection}{\numberline {4.12.2.5}get\discretionary {-}{}{}\_\discretionary {-}{}{}entrants}{39}{subsubsection.4.12.2.5}
+\contentsline {subsubsection}{\numberline {4.12.2.6}get\discretionary {-}{}{}\_\discretionary {-}{}{}event}{39}{subsubsection.4.12.2.6}
+\contentsline {subsubsection}{\numberline {4.12.2.7}get\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}{39}{subsubsection.4.12.2.7}
+\contentsline {subsubsection}{\numberline {4.12.2.8}get\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}{40}{subsubsection.4.12.2.8}
+\contentsline {subsubsection}{\numberline {4.12.2.9}load\discretionary {-}{}{}\_\discretionary {-}{}{}cp\discretionary {-}{}{}\_\discretionary {-}{}{}data}{40}{subsubsection.4.12.2.9}
+\contentsline {subsubsection}{\numberline {4.12.2.10}query\discretionary {-}{}{}\_\discretionary {-}{}{}entrant}{40}{subsubsection.4.12.2.10}
+\contentsline {subsubsection}{\numberline {4.12.2.11}show\discretionary {-}{}{}\_\discretionary {-}{}{}menu}{40}{subsubsection.4.12.2.11}
+\contentsline {section}{\numberline {4.13}main.\discretionary {-}{}{}c File Reference}{40}{section.4.13}
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{41}{subsection.4.13.1}
+\contentsline {section}{\numberline {4.14}node.\discretionary {-}{}{}c File Reference}{41}{section.4.14}
+\contentsline {subsection}{\numberline {4.14.1}Detailed Description}{41}{subsection.4.14.1}
+\contentsline {subsection}{\numberline {4.14.2}Function Documentation}{42}{subsection.4.14.2}
+\contentsline {subsubsection}{\numberline {4.14.2.1}node\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}{42}{subsubsection.4.14.2.1}
+\contentsline {subsubsection}{\numberline {4.14.2.2}read\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}{42}{subsubsection.4.14.2.2}
+\contentsline {section}{\numberline {4.15}node.\discretionary {-}{}{}h File Reference}{42}{section.4.15}
+\contentsline {subsection}{\numberline {4.15.1}Detailed Description}{43}{subsection.4.15.1}
+\contentsline {subsection}{\numberline {4.15.2}Typedef Documentation}{43}{subsection.4.15.2}
+\contentsline {subsubsection}{\numberline {4.15.2.1}N\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E}{43}{subsubsection.4.15.2.1}
+\contentsline {subsubsection}{\numberline {4.15.2.2}N\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}{43}{subsubsection.4.15.2.2}
+\contentsline {subsection}{\numberline {4.15.3}Function Documentation}{43}{subsection.4.15.3}
+\contentsline {subsubsection}{\numberline {4.15.3.1}node\discretionary {-}{}{}\_\discretionary {-}{}{}id\discretionary {-}{}{}\_\discretionary {-}{}{}search}{43}{subsubsection.4.15.3.1}
+\contentsline {subsubsection}{\numberline {4.15.3.2}read\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}{44}{subsubsection.4.15.3.2}
+\contentsline {section}{\numberline {4.16}tests.\discretionary {-}{}{}h File Reference}{44}{section.4.16}
+\contentsline {subsection}{\numberline {4.16.1}Detailed Description}{44}{subsection.4.16.1}
+\contentsline {subsection}{\numberline {4.16.2}Function Documentation}{45}{subsection.4.16.2}
+\contentsline {subsubsection}{\numberline {4.16.2.1}course\discretionary {-}{}{}\_\discretionary {-}{}{}read}{45}{subsubsection.4.16.2.1}
+\contentsline {section}{\numberline {4.17}time\discretionary {-}{}{}\_\discretionary {-}{}{}struct.\discretionary {-}{}{}h File Reference}{45}{section.4.17}
+\contentsline {subsection}{\numberline {4.17.1}Detailed Description}{45}{subsection.4.17.1}
+\contentsline {section}{\numberline {4.18}track.\discretionary {-}{}{}c File Reference}{45}{section.4.18}
+\contentsline {subsection}{\numberline {4.18.1}Detailed Description}{46}{subsection.4.18.1}
+\contentsline {subsection}{\numberline {4.18.2}Function Documentation}{46}{subsection.4.18.2}
+\contentsline {subsubsection}{\numberline {4.18.2.1}read\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}{46}{subsubsection.4.18.2.1}
+\contentsline {subsubsection}{\numberline {4.18.2.2}validate\discretionary {-}{}{}\_\discretionary {-}{}{}track}{46}{subsubsection.4.18.2.2}
+\contentsline {section}{\numberline {4.19}track.\discretionary {-}{}{}h File Reference}{47}{section.4.19}
+\contentsline {subsection}{\numberline {4.19.1}Detailed Description}{47}{subsection.4.19.1}
+\contentsline {subsection}{\numberline {4.19.2}Typedef Documentation}{47}{subsection.4.19.2}
+\contentsline {subsubsection}{\numberline {4.19.2.1}T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}K}{47}{subsubsection.4.19.2.1}
+\contentsline {subsubsection}{\numberline {4.19.2.2}T\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T}{47}{subsubsection.4.19.2.2}
+\contentsline {subsection}{\numberline {4.19.3}Function Documentation}{48}{subsection.4.19.3}
+\contentsline {subsubsection}{\numberline {4.19.3.1}validate\discretionary {-}{}{}\_\discretionary {-}{}{}track}{48}{subsubsection.4.19.3.1}

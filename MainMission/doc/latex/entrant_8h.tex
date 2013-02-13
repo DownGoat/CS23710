@@ -1,0 +1,154 @@
+\hypertarget{entrant_8h}{\section{entrant.\-h File Reference}
+\label{entrant_8h}\index{entrant.\-h@{entrant.\-h}}
+}
+
+
+This file holds structures and values needed to work with entrants.  
+
+
+{\ttfamily \#include \char`\"{}cp\-\_\-time.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}time\-\_\-struct.\-h\char`\"{}}\\*
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structentrant}{entrant}
+\begin{DoxyCompactList}\small\item\em A typedef of a struct representing a entrant in the competition. \end{DoxyCompactList}\item 
+struct \hyperlink{structentrant__list}{entrant\-\_\-list}
+\begin{DoxyCompactList}\small\item\em This is the entrant list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{entrant_8h_a0c397a708cec89c74029582574516b30}{\#define \hyperlink{entrant_8h_a0c397a708cec89c74029582574516b30}{M\-A\-X\-\_\-\-N\-A\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H}~50}\label{entrant_8h_a0c397a708cec89c74029582574516b30}
+
+\begin{DoxyCompactList}\small\item\em As stated in assignment, no name is longer than 50 chars including spaces. \end{DoxyCompactList}\item 
+\hypertarget{entrant_8h_a618e39fbf7307c8472c4cc6af2e402ea}{\#define \hyperlink{entrant_8h_a618e39fbf7307c8472c4cc6af2e402ea}{E\-N\-T\-R\-A\-N\-T\-S\-\_\-\-M\-I\-N\-\_\-\-S\-I\-Z\-E}~100}\label{entrant_8h_a618e39fbf7307c8472c4cc6af2e402ea}
+
+\begin{DoxyCompactList}\small\item\em Minimum size of the entrant array. \end{DoxyCompactList}\item 
+\hypertarget{entrant_8h_a126264fcc4dfc45681b945a27cb3e9ec}{\#define \hyperlink{entrant_8h_a126264fcc4dfc45681b945a27cb3e9ec}{E\-N\-T\-\_\-\-F\-O\-R\-M\-A\-T}~\char`\"{}\%-\/5d\%-\/50s\%-\/10c\%-\/15s\%-\/15s\%-\/10s\textbackslash{}n\char`\"{}}\label{entrant_8h_a126264fcc4dfc45681b945a27cb3e9ec}
+
+\begin{DoxyCompactList}\small\item\em The format string used when printing out data about a entrant. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{typedef struct \hyperlink{structentrant}{entrant} \hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T}}\label{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}
+
+\begin{DoxyCompactList}\small\item\em A typedef of a struct representing a entrant in the competition. \end{DoxyCompactList}\item 
+typedef struct \hyperlink{structentrant__list}{entrant\-\_\-list} \hyperlink{entrant_8h_a7eb199c35dfca7ae6b3269c34a298b4a}{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T}
+\begin{DoxyCompactList}\small\item\em This is the entrant list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{entrant_8h_a7eb199c35dfca7ae6b3269c34a298b4a}{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{entrant_8h_a88d32c07efcf641bf07cde0fcb230f94}{read\-\_\-entrants} (char $\ast$path)
+\begin{DoxyCompactList}\small\item\em This function opens a file containing the data about the entrants. \end{DoxyCompactList}\item 
+\hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$ \hyperlink{entrant_8h_acc37028d985ea1996ab3314e14a51dd8}{entrant\-\_\-id\-\_\-search} (int entrant\-\_\-id, \hyperlink{entrant_8h_a7eb199c35dfca7ae6b3269c34a298b4a}{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T} $\ast$entrants)
+\begin{DoxyCompactList}\small\item\em Searches the entrant list for a entrant that has the passed I\-D. \end{DoxyCompactList}\item 
+void \hyperlink{entrant_8h_ad960ddb1538b7f512079294fe2c26d06}{print\-\_\-entrant} (\hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$\hyperlink{structentrant}{entrant})
+\begin{DoxyCompactList}\small\item\em Prints out nicely formated info about a entrant. \end{DoxyCompactList}\item 
+\hypertarget{entrant_8h_aa5cfe623ac1ec191433425112ad5843c}{void \hyperlink{entrant_8h_aa5cfe623ac1ec191433425112ad5843c}{print\-\_\-entrant\-\_\-header} ()}\label{entrant_8h_aa5cfe623ac1ec191433425112ad5843c}
+
+\begin{DoxyCompactList}\small\item\em Prints out the header used showing what each colum is. \end{DoxyCompactList}\item 
+\hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$ \hyperlink{entrant_8h_a334fb638149b8ce9c7108a7c9e2ca7e1}{entrant\-\_\-name\-\_\-search} (char $\ast$name, \hyperlink{entrant_8h_a7eb199c35dfca7ae6b3269c34a298b4a}{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T} $\ast$entrants)
+\begin{DoxyCompactList}\small\item\em Search the entrant list by name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file holds structures and values needed to work with entrants. \begin{DoxyAuthor}{Author}
+Sindre Smistad \href{mailto:sis13@aber.ac.uk}{\tt sis13@aber.\-ac.\-uk}
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012.\-11.\-20 
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{entrant_8h_a7eb199c35dfca7ae6b3269c34a298b4a}{\index{entrant.\-h@{entrant.\-h}!E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T@{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T}}
+\index{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T@{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T}!entrant.h@{entrant.\-h}}
+\subsubsection[{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf entrant\-\_\-list}  {\bf E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T}}}\label{entrant_8h_a7eb199c35dfca7ae6b3269c34a298b4a}
+
+
+This is the entrant list. 
+
+It is used to easily pass around the list and information about it to make working with it easier. 
+
+\subsection{Function Documentation}
+\hypertarget{entrant_8h_acc37028d985ea1996ab3314e14a51dd8}{\index{entrant.\-h@{entrant.\-h}!entrant\-\_\-id\-\_\-search@{entrant\-\_\-id\-\_\-search}}
+\index{entrant\-\_\-id\-\_\-search@{entrant\-\_\-id\-\_\-search}!entrant.h@{entrant.\-h}}
+\subsubsection[{entrant\-\_\-id\-\_\-search}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-N\-T\-R\-A\-N\-T}$\ast$ entrant\-\_\-id\-\_\-search (
+\begin{DoxyParamCaption}
+\item[{int}]{entrant\-\_\-id, }
+\item[{{\bf E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T} $\ast$}]{entrants}
+\end{DoxyParamCaption}
+)}}\label{entrant_8h_acc37028d985ea1996ab3314e14a51dd8}
+
+
+Searches the entrant list for a entrant that has the passed I\-D. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entrant\-\_\-id} & The I\-D of the entrant to search for.\\
+\hline
+{\em entrants} & List of entrants.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns a pointer to the entrant if found. If no entrant is found N\-U\-L\-L is returned. 
+\end{DoxyReturn}
+\hypertarget{entrant_8h_a334fb638149b8ce9c7108a7c9e2ca7e1}{\index{entrant.\-h@{entrant.\-h}!entrant\-\_\-name\-\_\-search@{entrant\-\_\-name\-\_\-search}}
+\index{entrant\-\_\-name\-\_\-search@{entrant\-\_\-name\-\_\-search}!entrant.h@{entrant.\-h}}
+\subsubsection[{entrant\-\_\-name\-\_\-search}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-N\-T\-R\-A\-N\-T}$\ast$ entrant\-\_\-name\-\_\-search (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{name, }
+\item[{{\bf E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T} $\ast$}]{entrants}
+\end{DoxyParamCaption}
+)}}\label{entrant_8h_a334fb638149b8ce9c7108a7c9e2ca7e1}
+
+
+Search the entrant list by name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the entrant you are searching for.\\
+\hline
+{\em entrants} & List of entrants.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns a pointer to the entrant if found. If no entrant is found N\-U\-L\-L is returned. 
+\end{DoxyReturn}
+\hypertarget{entrant_8h_ad960ddb1538b7f512079294fe2c26d06}{\index{entrant.\-h@{entrant.\-h}!print\-\_\-entrant@{print\-\_\-entrant}}
+\index{print\-\_\-entrant@{print\-\_\-entrant}!entrant.h@{entrant.\-h}}
+\subsubsection[{print\-\_\-entrant}]{\setlength{\rightskip}{0pt plus 5cm}void print\-\_\-entrant (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-N\-T\-R\-A\-N\-T} $\ast$}]{entrant}
+\end{DoxyParamCaption}
+)}}\label{entrant_8h_ad960ddb1538b7f512079294fe2c26d06}
+
+
+Prints out nicely formated info about a entrant. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entrant} & The entrant to print out. \\
+\hline
+\end{DoxyParams}
+\hypertarget{entrant_8h_a88d32c07efcf641bf07cde0fcb230f94}{\index{entrant.\-h@{entrant.\-h}!read\-\_\-entrants@{read\-\_\-entrants}}
+\index{read\-\_\-entrants@{read\-\_\-entrants}!entrant.h@{entrant.\-h}}
+\subsubsection[{read\-\_\-entrants}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T}$\ast$ read\-\_\-entrants (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}}\label{entrant_8h_a88d32c07efcf641bf07cde0fcb230f94}
+
+
+This function opens a file containing the data about the entrants. 
+
+The function does some simple error checking on the file, and will return a negative integer on failure. The Data should include a positive integer that represents a id. A single capital character which is the id of the course the entrant has signed up for. Followed by a no longer than 80 characters long name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Path to the file you want to open.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 if successful, a negative integer otherwise. 
+\end{DoxyReturn}

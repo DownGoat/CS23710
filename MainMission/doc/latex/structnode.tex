@@ -1,0 +1,51 @@
+\hypertarget{structnode}{\section{node Struct Reference}
+\label{structnode}\index{node@{node}}
+}
+
+
+The node data structure represents a checkpoint in the course.  
+
+
+
+
+{\ttfamily \#include $<$node.\-h$>$}
+
+\subsection*{Data Fields}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{structnode_a805c6a03966d787e0ad1a877f6c0dd8c}{node\-\_\-id}
+\begin{DoxyCompactList}\small\item\em The node id used to identify the node. \end{DoxyCompactList}\item 
+\hypertarget{structnode_a171a822e7b60775670364819d3381240}{char \hyperlink{structnode_a171a822e7b60775670364819d3381240}{node\-\_\-type} \mbox{[}10\mbox{]}}\label{structnode_a171a822e7b60775670364819d3381240}
+
+\begin{DoxyCompactList}\small\item\em The node type. \end{DoxyCompactList}\item 
+\hypertarget{structnode_aa3e8aa83f864292b5a01210f4453fcc0}{struct \hyperlink{structnode}{node} $\ast$ \hyperlink{structnode_aa3e8aa83f864292b5a01210f4453fcc0}{next}}\label{structnode_aa3e8aa83f864292b5a01210f4453fcc0}
+
+\begin{DoxyCompactList}\small\item\em Pointer to the next node element. \end{DoxyCompactList}\item 
+\hypertarget{structnode_ab22778bf9ba1a9d0693071811bbe120b}{int \hyperlink{structnode_ab22778bf9ba1a9d0693071811bbe120b}{elements}}\label{structnode_ab22778bf9ba1a9d0693071811bbe120b}
+
+\begin{DoxyCompactList}\small\item\em Number of track elements currently in the tracks array. \end{DoxyCompactList}\item 
+\hypertarget{structnode_ad9bd405f917daba127e4a26649313401}{\hyperlink{track_8h_a1168d7895be9688fc0d8644aab306d6b}{T\-R\-A\-C\-K} \hyperlink{structnode_ad9bd405f917daba127e4a26649313401}{tracks} \mbox{[}100\mbox{]}}\label{structnode_ad9bd405f917daba127e4a26649313401}
+
+\begin{DoxyCompactList}\small\item\em Array of tracks for this node. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+
+\subsection{Detailed Description}
+The node data structure represents a checkpoint in the course. 
+
+There are several different checkpoints. Each node is identified by a positive integer. The data structure is also a linked list and has a pointer to the next element in the list. 
+
+\subsection{Field Documentation}
+\hypertarget{structnode_a805c6a03966d787e0ad1a877f6c0dd8c}{\index{node@{node}!node\-\_\-id@{node\-\_\-id}}
+\index{node\-\_\-id@{node\-\_\-id}!node@{node}}
+\subsubsection[{node\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}int node\-::node\-\_\-id}}\label{structnode_a805c6a03966d787e0ad1a877f6c0dd8c}
+
+
+The node id used to identify the node. 
+
+The id is a positive integer. 
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{node_8h}{node.\-h}\end{DoxyCompactItemize}

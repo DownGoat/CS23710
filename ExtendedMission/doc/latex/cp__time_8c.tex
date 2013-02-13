@@ -1,0 +1,55 @@
+\hypertarget{cp__time_8c}{\section{cp\-\_\-time.\-c File Reference}
+\label{cp__time_8c}\index{cp\-\_\-time.\-c@{cp\-\_\-time.\-c}}
+}
+
+
+This file contains functions used to work with the C\-P\-\_\-\-T\-I\-M\-E data structure.  
+
+
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$errno.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}cp\-\_\-time.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}node.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}event.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}functions.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{cp__time_8c_af0cee17eaf00b0ed954e5441f9f9f22d}{read\-\_\-event\-\_\-data} (char $\ast$path, \hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event})
+\begin{DoxyCompactList}\small\item\em This function reads the check point data from a file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains functions used to work with the C\-P\-\_\-\-T\-I\-M\-E data structure. \begin{DoxyAuthor}{Author}
+Sindre Smistad \href{mailto:sis13@aber.ac.uk}{\tt sis13@aber.\-ac.\-uk}
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012.\-12.\-06 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\hypertarget{cp__time_8c_af0cee17eaf00b0ed954e5441f9f9f22d}{\index{cp\-\_\-time.\-c@{cp\-\_\-time.\-c}!read\-\_\-event\-\_\-data@{read\-\_\-event\-\_\-data}}
+\index{read\-\_\-event\-\_\-data@{read\-\_\-event\-\_\-data}!cp_time.c@{cp\-\_\-time.\-c}}
+\subsubsection[{read\-\_\-event\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}int read\-\_\-event\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{path, }
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{cp__time_8c_af0cee17eaf00b0ed954e5441f9f9f22d}
+
+
+This function reads the check point data from a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Path to the file containing the checkpoint data.\\
+\hline
+{\em event} & Event structure.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+On success this function returns 1, 0 is returned on failure. 
+\end{DoxyReturn}

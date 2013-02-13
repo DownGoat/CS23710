@@ -1,0 +1,866 @@
+Script started on Fri 14 Dec 2012 12:18:11 GMT
+[01;32msis13@Yuki[01;34m ~/Dropbox/CS23710_C_and_Unix/BigBrother $[00m ./extendedmission 
+Please enter a path to a file containing event name and date:
+>>> data/e2/name.txt
+[i] Event loaded!
+
+Please enter a path to a file containing node data:
+>>> data/e2/nodes.txt
+[i] 18 nodes loaded from 'data/e2/nodes.txt'.
+
+Please enter a path to a file containing track data:
+>>> data/e2/tracks.txt
+[i] 22 tracks loaded from 'data/e2/tracks.txt'.
+
+Please enter a path to a file containing courses:
+>>> data/e2/courses.txt
+[i] 7 courses loaded from 'data/e2/courses.txt'.
+
+Please enter a path to a file containing entrant data:data/e2/entrants.txt
+[i] 103 entrants loaded from 'data/e2/entrants.txt'.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 3
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Ace Abbey                                         E         Not Started    N/A            N/A       
+3    Ace Fudge                                         A         Not Started    N/A            N/A       
+4    Amber Abbey                                       C         Not Started    N/A            N/A       
+5    Amber Fudge                                       E         Not Started    N/A            N/A       
+6    April Abbey                                       D         Not Started    N/A            N/A       
+7    April Fudge                                       B         Not Started    N/A            N/A       
+8    Ash Abbey                                         F         Not Started    N/A            N/A       
+9    Ash Fudge                                         D         Not Started    N/A            N/A       
+10   Asti Abbey                                        A         Not Started    N/A            N/A       
+11   Asti Fudge                                        A         Not Started    N/A            N/A       
+12   Autumn Abbey                                      C         Not Started    N/A            N/A       
+13   Autumn Fudge                                      B         Not Started    N/A            N/A       
+14   Barfields Marco Abbey                             A         Not Started    N/A            N/A       
+16   Barfields Marco Fudge                             F         Not Started    N/A            N/A       
+17   Basil Abbey                                       B         Not Started    N/A            N/A       
+18   Basil Fudge                                       A         Not Started    N/A            N/A       
+19   Beatrice Abbey                                    C         Not Started    N/A            N/A       
+20   Beatrice Fudge                                    A         Not Started    N/A            N/A       
+22   Beau Abbey                                        D         Not Started    N/A            N/A       
+23   Beau Fudge                                        C         Not Started    N/A            N/A       
+24   Bella Abbey                                       B         Not Started    N/A            N/A       
+26   Bella Fudge                                       F         Not Started    N/A            N/A       
+27   Black Jack Abbey                                  F         Not Started    N/A            N/A       
+28   Black Jack Fudge                                  A         Not Started    N/A            N/A       
+30   Blue Abbey                                        B         Not Started    N/A            N/A       
+31   Blue Fudge                                        B         Not Started    N/A            N/A       
+32   Bobby Abbey                                       A         Not Started    N/A            N/A       
+34   Bobby Fudge                                       E         Not Started    N/A            N/A       
+35   Bubbles Abbey                                     C         Not Started    N/A            N/A       
+36   Bubbles Fudge                                     D         Not Started    N/A            N/A       
+38   Captain Abbey                                     A         Not Started    N/A            N/A       
+39   Captain Fudge                                     B         Not Started    N/A            N/A       
+40   Chalkie Abbey                                     D         Not Started    N/A            N/A       
+41   Chalkie Fudge                                     F         Not Started    N/A            N/A       
+42   Copper Abbey                                      E         Not Started    N/A            N/A       
+44   Copper Fudge                                      B         Not Started    N/A            N/A       
+45   Diamond Abbey                                     C         Not Started    N/A            N/A       
+46   Diamond Fudge                                     B         Not Started    N/A            N/A       
+47   Dinky Abbey                                       E         Not Started    N/A            N/A       
+48   Dinky Fudge                                       F         Not Started    N/A            N/A       
+49   Ebony Abbey                                       B         Not Started    N/A            N/A       
+50   Ebony Fudge                                       C         Not Started    N/A            N/A       
+51   Ginger Abbey                                      C         Not Started    N/A            N/A       
+52   Ginger Fudge                                      F         Not Started    N/A            N/A       
+53   Goldie Abbey                                      A         Not Started    N/A            N/A       
+55   Goldie Fudge                                      E         Not Started    N/A            N/A       
+56   Honey Abbey                                       F         Not Started    N/A            N/A       
+57   Honey Fudge                                       C         Not Started    N/A            N/A       
+58   Izzy Abbey                                        A         Not Started    N/A            N/A       
+59   Izzy Fudge                                        A         Not Started    N/A            N/A       
+60   Jasmine Abbey                                     A         Not Started    N/A            N/A       
+61   Jasmine Fudge                                     F         Not Started    N/A            N/A       
+62   Lady Abbey                                        D         Not Started    N/A            N/A       
+64   Lady Fudge                                        B         Not Started    N/A            N/A       
+65   Lady Tara Abbey                                   C         Not Started    N/A            N/A       
+66   Lady Tara Fudge                                   B         Not Started    N/A            N/A       
+67   Lemon Abbey                                       B         Not Started    N/A            N/A       
+68   Lemon Fudge                                       E         Not Started    N/A            N/A       
+69   Lord Abbey                                        F         Not Started    N/A            N/A       
+70   Lord Fudge                                        E         Not Started    N/A            N/A       
+71   Lucky Abbey                                       A         Not Started    N/A            N/A       
+74   Lucky Fudge                                       E         Not Started    N/A            N/A       
+76   Lord Abbey                                        D         Not Started    N/A            N/A       
+77   Lord Fudge                                        B         Not Started    N/A            N/A       
+78   Maddy Abbey                                       F         Not Started    N/A            N/A       
+79   Maddy Fudge                                       A         Not Started    N/A            N/A       
+80   Magic Abbey                                       D         Not Started    N/A            N/A       
+81   Magic Fudge                                       D         Not Started    N/A            N/A       
+83   Major Abbey                                       A         Not Started    N/A            N/A       
+85   Major Fudge                                       A         Not Started    N/A            N/A       
+86   Mattie Abbey                                      B         Not Started    N/A            N/A       
+87   Mattie Fudge                                      A         Not Started    N/A            N/A       
+89   Prince Abbey                                      B         Not Started    N/A            N/A       
+90   Prince Fudge                                      A         Not Started    N/A            N/A       
+91   Princess Abbey                                    B         Not Started    N/A            N/A       
+92   Princess Fudge                                    B         Not Started    N/A            N/A       
+93   Rosie Abbey                                       D         Not Started    N/A            N/A       
+94   Rosie Fudge                                       B         Not Started    N/A            N/A       
+95   Ruby Abbey                                        F         Not Started    N/A            N/A       
+97   Ruby Fudge                                        C         Not Started    N/A            N/A       
+98   Sapphire Abbey                                    C         Not Started    N/A            N/A       
+100  Sapphire Fudge                                    F         Not Started    N/A            N/A       
+101  Scarlet Abbey                                     C         Not Started    N/A            N/A       
+102  Scarlet Fudge                                     F         Not Started    N/A            N/A       
+103  sienna Abbey                                      D         Not Started    N/A            N/A       
+106  sienna Fudge                                      B         Not Started    N/A            N/A       
+107  Silver Abbey                                      F         Not Started    N/A            N/A       
+108  Silver Fudge                                      A         Not Started    N/A            N/A       
+109  Smokey Abbey                                      A         Not Started    N/A            N/A       
+110  Smokey Fudge                                      D         Not Started    N/A            N/A       
+111  Snowy Abbey                                       E         Not Started    N/A            N/A       
+113  Snowy Fudge                                       C         Not Started    N/A            N/A       
+114  sonic Abbey                                       A         Not Started    N/A            N/A       
+115  sonic Fudge                                       D         Not Started    N/A            N/A       
+117  Summer Abbey                                      A         Not Started    N/A            N/A       
+118  Summer Fudge                                      E         Not Started    N/A            N/A       
+121  Tango Abbey                                       B         Not Started    N/A            N/A       
+122  Tango Fudge                                       A         Not Started    N/A            N/A       
+123  Topaz Abbey                                       B         Not Started    N/A            N/A       
+124  Topaz Fudge                                       F         Not Started    N/A            N/A       
+126  Zizou Abbey                                       D         Not Started    N/A            N/A       
+127  Zizou Fudge                                       F         Not Started    N/A            N/A       
+128  Sindre Smistad                                    X         Not Started    N/A            N/A       
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 2
+
+1. From file.
+2. Enter manually:
+0. Back
+>> 1
+
+Please enter a path to a file containing check point data:
+0. Back.
+>>> data/e2/cp_tim, es_1.txt
+[i] Checkpoint data loaded.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 3
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Ace Abbey                                         E         13             07:30          1H 20M    
+3    Ace Fudge                                         A         14             07:33          1H 49M    
+4    Amber Abbey                                       C         13             07:37          1H 49M    
+5    Amber Fudge                                       E         13             07:40          1H 19M    
+6    April Abbey                                       D         9              07:43          1H 22M    
+7    April Fudge                                       B         14             07:46          1H 42M    
+8    Ash Abbey                                         F         13             07:49          1H 10M    
+9    Ash Fudge                                         D         9              07:52          1H 15M    
+10   Asti Abbey                                        A         7              07:55          1H 11M    
+11   Asti Fudge                                        A         7              07:58          1H 12M    
+12   Autumn Abbey                                      C         7              08:01          1H 7M     
+13   Autumn Fudge                                      B         7              08:04          1H 11M    
+14   Barfields Marco Abbey                             A         7              08:07          1H 9M     
+16   Barfields Marco Fudge                             F         13             08:10          1H 7M     
+17   Basil Abbey                                       B         7              08:13          1H 9M     
+18   Basil Fudge                                       A         5              08:16          0H 54M    
+19   Beatrice Abbey                                    C         5              08:20          0H 51M    
+20   Beatrice Fudge                                    A         5              08:23          0H 53M    
+22   Beau Abbey                                        D         5              08:26          0H 53M    
+23   Beau Fudge                                        C         5              08:29          0H 48M    
+24   Bella Abbey                                       B         4              08:32          0H 42M    
+26   Bella Fudge                                       F         9              08:35          0H 44M    
+27   Black Jack Abbey                                  F         9              08:38          0H 41M    
+28   Black Jack Fudge                                  A         4              08:41          0H 37M    
+30   Blue Abbey                                        B         4              08:45          0H 35M    
+31   Blue Fudge                                        B         Started        08:48          0H 0M     
+32   Bobby Abbey                                       A         4              08:51          0H 35M    
+34   Bobby Fudge                                       E         Started        08:54          0H 0M     
+35   Bubbles Abbey                                     C         Started        08:57          0H 0M     
+36   Bubbles Fudge                                     D         Started        09:00          0H 0M     
+38   Captain Abbey                                     A         Started        09:03          0H 0M     
+39   Captain Fudge                                     B         Started        09:06          0H 0M     
+40   Chalkie Abbey                                     D         Started        09:09          0H 0M     
+41   Chalkie Fudge                                     F         Started        09:12          0H 0M     
+42   Copper Abbey                                      E         Started        09:15          0H 0M     
+44   Copper Fudge                                      B         Started        09:18          0H 0M     
+45   Diamond Abbey                                     C         Started        09:21          0H 0M     
+46   Diamond Fudge                                     B         Started        09:25          0H 0M     
+47   Dinky Abbey                                       E         Not Started    N/A            N/A       
+48   Dinky Fudge                                       F         Not Started    N/A            N/A       
+49   Ebony Abbey                                       B         Not Started    N/A            N/A       
+50   Ebony Fudge                                       C         Not Started    N/A            N/A       
+51   Ginger Abbey                                      C         Not Started    N/A            N/A       
+52   Ginger Fudge                                      F         Not Started    N/A            N/A       
+53   Goldie Abbey                                      A         Not Started    N/A            N/A       
+55   Goldie Fudge                                      E         Not Started    N/A            N/A       
+56   Honey Abbey                                       F         Not Started    N/A            N/A       
+57   Honey Fudge                                       C         Not Started    N/A            N/A       
+58   Izzy Abbey                                        A         Not Started    N/A            N/A       
+59   Izzy Fudge                                        A         Not Started    N/A            N/A       
+60   Jasmine Abbey                                     A         Not Started    N/A            N/A       
+61   Jasmine Fudge                                     F         Not Started    N/A            N/A       
+62   Lady Abbey                                        D         Not Started    N/A            N/A       
+64   Lady Fudge                                        B         Not Started    N/A            N/A       
+65   Lady Tara Abbey                                   C         Not Started    N/A            N/A       
+66   Lady Tara Fudge                                   B         Not Started    N/A            N/A       
+67   Lemon Abbey                                       B         Not Started    N/A            N/A       
+68   Lemon Fudge                                       E         Not Started    N/A            N/A       
+69   Lord Abbey                                        F         Not Started    N/A            N/A       
+70   Lord Fudge                                        E         Not Started    N/A            N/A       
+71   Lucky Abbey                                       A         Not Started    N/A            N/A       
+74   Lucky Fudge                                       E         Not Started    N/A            N/A       
+76   Lord Abbey                                        D         Not Started    N/A            N/A       
+77   Lord Fudge                                        B         Not Started    N/A            N/A       
+78   Maddy Abbey                                       F         Not Started    N/A            N/A       
+79   Maddy Fudge                                       A         Not Started    N/A            N/A       
+80   Magic Abbey                                       D         Not Started    N/A            N/A       
+81   Magic Fudge                                       D         Not Started    N/A            N/A       
+83   Major Abbey                                       A         Not Started    N/A            N/A       
+85   Major Fudge                                       A         Not Started    N/A            N/A       
+86   Mattie Abbey                                      B         Not Started    N/A            N/A       
+87   Mattie Fudge                                      A         Not Started    N/A            N/A       
+89   Prince Abbey                                      B         Not Started    N/A            N/A       
+90   Prince Fudge                                      A         Not Started    N/A            N/A       
+91   Princess Abbey                                    B         Not Started    N/A            N/A       
+92   Princess Fudge                                    B         Not Started    N/A            N/A       
+93   Rosie Abbey                                       D         Not Started    N/A            N/A       
+94   Rosie Fudge                                       B         Not Started    N/A            N/A       
+95   Ruby Abbey                                        F         Not Started    N/A            N/A       
+97   Ruby Fudge                                        C         Not Started    N/A            N/A       
+98   Sapphire Abbey                                    C         Not Started    N/A            N/A       
+100  Sapphire Fudge                                    F         Not Started    N/A            N/A       
+101  Scarlet Abbey                                     C         Not Started    N/A            N/A       
+102  Scarlet Fudge                                     F         Not Started    N/A            N/A       
+103  sienna Abbey                                      D         Not Started    N/A            N/A       
+106  sienna Fudge                                      B         Not Started    N/A            N/A       
+107  Silver Abbey                                      F         Not Started    N/A            N/A       
+108  Silver Fudge                                      A         Not Started    N/A            N/A       
+109  Smokey Abbey                                      A         Not Started    N/A            N/A       
+110  Smokey Fudge                                      D         Not Started    N/A            N/A       
+111  Snowy Abbey                                       E         Not Started    N/A            N/A       
+113  Snowy Fudge                                       C         Not Started    N/A            N/A       
+114  sonic Abbey                                       A         Not Started    N/A            N/A       
+115  sonic Fudge                                       D         Not Started    N/A            N/A       
+117  Summer Abbey                                      A         Not Started    N/A            N/A       
+118  Summer Fudge                                      E         Not Started    N/A            N/A       
+121  Tango Abbey                                       B         Not Started    N/A            N/A       
+122  Tango Fudge                                       A         Not Started    N/A            N/A       
+123  Topaz Abbey                                       B         Not Started    N/A            N/A       
+124  Topaz Fudge                                       F         Not Started    N/A            N/A       
+126  Zizou Abbey                                       D         Not Started    N/A            N/A       
+127  Zizou Fudge                                       F         Not Started    N/A            N/A       
+128  Sindre Smistad                                    X         Not Started    N/A            N/A       
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 6
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Ace Abbey                                         E         13             07:30          1H 20M    
+3    Ace Fudge                                         A         14             07:33          1H 49M    
+4    Amber Abbey                                       C         13             07:37          1H 49M    
+5    Amber Fudge                                       E         13             07:40          1H 19M    
+6    April Abbey                                       D         9              07:43          1H 22M    
+7    April Fudge                                       B         14             07:46          1H 42M    
+8    Ash Abbey                                         F         13             07:49          1H 10M    
+9    Ash Fudge                                         D         9              07:52          1H 15M    
+10   Asti Abbey                                        A         7              07:55          1H 11M    
+11   Asti Fudge                                        A         7              07:58          1H 12M    
+12   Autumn Abbey                                      C         7              08:01          1H 7M     
+13   Autumn Fudge                                      B         7              08:04          1H 11M    
+14   Barfields Marco Abbey                             A         7              08:07          1H 9M     
+16   Barfields Marco Fudge                             F         13             08:10          1H 7M     
+17   Basil Abbey                                       B         7              08:13          1H 9M     
+18   Basil Fudge                                       A         5              08:16          0H 54M    
+19   Beatrice Abbey                                    C         5              08:20          0H 51M    
+20   Beatrice Fudge                                    A         5              08:23          0H 53M    
+22   Beau Abbey                                        D         5              08:26          0H 53M    
+23   Beau Fudge                                        C         5              08:29          0H 48M    
+24   Bella Abbey                                       B         4              08:32          0H 42M    
+26   Bella Fudge                                       F         9              08:35          0H 44M    
+27   Black Jack Abbey                                  F         9              08:38          0H 41M    
+28   Black Jack Fudge                                  A         4              08:41          0H 37M    
+30   Blue Abbey                                        B         4              08:45          0H 35M    
+31   Blue Fudge                                        B         Started        08:48          0H 0M     
+32   Bobby Abbey                                       A         4              08:51          0H 35M    
+34   Bobby Fudge                                       E         Started        08:54          0H 0M     
+35   Bubbles Abbey                                     C         Started        08:57          0H 0M     
+36   Bubbles Fudge                                     D         Started        09:00          0H 0M     
+38   Captain Abbey                                     A         Started        09:03          0H 0M     
+39   Captain Fudge                                     B         Started        09:06          0H 0M     
+40   Chalkie Abbey                                     D         Started        09:09          0H 0M     
+41   Chalkie Fudge                                     F         Started        09:12          0H 0M     
+42   Copper Abbey                                      E         Started        09:15          0H 0M     
+44   Copper Fudge                                      B         Started        09:18          0H 0M     
+45   Diamond Abbey                                     C         Started        09:21          0H 0M     
+46   Diamond Fudge                                     B         Started        09:25          0H 0M     
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 5
+
+No entrant has finished yet.
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 4
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+47   Dinky Abbey                                       E         Not Started    N/A            N/A       
+48   Dinky Fudge                                       F         Not Started    N/A            N/A       
+49   Ebony Abbey                                       B         Not Started    N/A            N/A       
+50   Ebony Fudge                                       C         Not Started    N/A            N/A       
+51   Ginger Abbey                                      C         Not Started    N/A            N/A       
+52   Ginger Fudge                                      F         Not Started    N/A            N/A       
+53   Goldie Abbey                                      A         Not Started    N/A            N/A       
+55   Goldie Fudge                                      E         Not Started    N/A            N/A       
+56   Honey Abbey                                       F         Not Started    N/A            N/A       
+57   Honey Fudge                                       C         Not Started    N/A            N/A       
+58   Izzy Abbey                                        A         Not Started    N/A            N/A       
+59   Izzy Fudge                                        A         Not Started    N/A            N/A       
+60   Jasmine Abbey                                     A         Not Started    N/A            N/A       
+61   Jasmine Fudge                                     F         Not Started    N/A            N/A       
+62   Lady Abbey                                        D         Not Started    N/A            N/A       
+64   Lady Fudge                                        B         Not Started    N/A            N/A       
+65   Lady Tara Abbey                                   C         Not Started    N/A            N/A       
+66   Lady Tara Fudge                                   B         Not Started    N/A            N/A       
+67   Lemon Abbey                                       B         Not Started    N/A            N/A       
+68   Lemon Fudge                                       E         Not Started    N/A            N/A       
+69   Lord Abbey                                        F         Not Started    N/A            N/A       
+70   Lord Fudge                                        E         Not Started    N/A            N/A       
+71   Lucky Abbey                                       A         Not Started    N/A            N/A       
+74   Lucky Fudge                                       E         Not Started    N/A            N/A       
+76   Lord Abbey                                        D         Not Started    N/A            N/A       
+77   Lord Fudge                                        B         Not Started    N/A            N/A       
+78   Maddy Abbey                                       F         Not Started    N/A            N/A       
+79   Maddy Fudge                                       A         Not Started    N/A            N/A       
+80   Magic Abbey                                       D         Not Started    N/A            N/A       
+81   Magic Fudge                                       D         Not Started    N/A            N/A       
+83   Major Abbey                                       A         Not Started    N/A            N/A       
+85   Major Fudge                                       A         Not Started    N/A            N/A       
+86   Mattie Abbey                                      B         Not Started    N/A            N/A       
+87   Mattie Fudge                                      A         Not Started    N/A            N/A       
+89   Prince Abbey                                      B         Not Started    N/A            N/A       
+90   Prince Fudge                                      A         Not Started    N/A            N/A       
+91   Princess Abbey                                    B         Not Started    N/A            N/A       
+92   Princess Fudge                                    B         Not Started    N/A            N/A       
+93   Rosie Abbey                                       D         Not Started    N/A            N/A       
+94   Rosie Fudge                                       B         Not Started    N/A            N/A       
+95   Ruby Abbey                                        F         Not Started    N/A            N/A       
+97   Ruby Fudge                                        C         Not Started    N/A            N/A       
+98   Sapphire Abbey                                    C         Not Started    N/A            N/A       
+100  Sapphire Fudge                                    F         Not Started    N/A            N/A       
+101  Scarlet Abbey                                     C         Not Started    N/A            N/A       
+102  Scarlet Fudge                                     F         Not Started    N/A            N/A       
+103  sienna Abbey                                      D         Not Started    N/A            N/A       
+106  sienna Fudge                                      B         Not Started    N/A            N/A       
+107  Silver Abbey                                      F         Not Started    N/A            N/A       
+108  Silver Fudge                                      A         Not Started    N/A            N/A       
+109  Smokey Abbey                                      A         Not Started    N/A            N/A       
+110  Smokey Fudge                                      D         Not Started    N/A            N/A       
+111  Snowy Abbey                                       E         Not Started    N/A            N/A       
+113  Snowy Fudge                                       C         Not Started    N/A            N/A       
+114  sonic Abbey                                       A         Not Started    N/A            N/A       
+115  sonic Fudge                                       D         Not Started    N/A            N/A       
+117  Summer Abbey                                      A         Not Started    N/A            N/A       
+118  Summer Fudge                                      E         Not Started    N/A            N/A       
+121  Tango Abbey                                       B         Not Started    N/A            N/A       
+122  Tango Fudge                                       A         Not Started    N/A            N/A       
+123  Topaz Abbey                                       B         Not Started    N/A            N/A       
+124  Topaz Fudge                                       F         Not Started    N/A            N/A       
+126  Zizou Abbey                                       D         Not Started    N/A            N/A       
+127  Zizou Fudge                                       F         Not Started    N/A            N/A       
+128  Sindre Smistad                                    X         Not Started    N/A            N/A       
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 2
+
+1. From file.
+2. Enter manually:
+0. Back
+>> 1
+
+Please enter a path to a file containing check point data:
+0. Back.
+>>> data/e2/cp_times_2.txt7 
+[i] Checkpoint data loaded.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 7
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+4    Amber Abbey                                       C         Excluded       07:37          2H 37M    
+23   Beau Fudge                                        C         Excluded       08:29          1H 20M    
+36   Bubbles Fudge                                     D         Excluded       09:00          0H 57M    
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 2
+
+1. From file.
+2. Enter manually:
+0. Back
+>> 1
+
+Please enter a path to a file containing check point data:
+0. Back.
+>>> data/e2/cp_times_3.txt
+[i] Checkpoint data loaded.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> dat   2
+
+1. From file.
+2. Enter manually:
+0. Back
+>> 1
+
+Please enter a path to a file containing check point data:
+0. Back.
+>>> data_  a/e2/cp_times_4.txt
+[i] Checkpoint data loaded.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 2
+
+1. From file.
+2. Enter manually:
+0. Back
+>> 1
+
+Please enter a path to a file containing check point data:
+0. Back.
+>>> data/e2/cp_times_5.txt
+[i] Checkpoint data loaded.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 3
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Ace Abbey                                         E         Finished       07:30          2H 4M     
+3    Ace Fudge                                         A         Finished       07:33          3H 52M    
+4    Amber Abbey                                       C         Excluded       07:37          2H 37M    
+5    Amber Fudge                                       E         Finished       07:40          2H 11M    
+6    April Abbey                                       D         Finished       07:43          2H 3M     
+7    April Fudge                                       B         Finished       07:46          2H 46M    
+8    Ash Abbey                                         F         Finished       07:49          1H 56M    
+9    Ash Fudge                                         D         Finished       07:52          1H 58M    
+10   Asti Abbey                                        A         Finished       07:55          3H 49M    
+11   Asti Fudge                                        A         Finished       07:58          3H 51M    
+12   Autumn Abbey                                      C         Excluded       08:01          2H 30M    
+13   Autumn Fudge                                      B         Finished       08:04          2H 53M    
+14   Barfields Marco Abbey                             A         Finished       08:07          3H 49M    
+16   Barfields Marco Fudge                             F         Finished       08:10          1H 55M    
+17   Basil Abbey                                       B         Finished       08:13          2H 2M     
+18   Basil Fudge                                       A         Finished       08:16          3H 50M    
+19   Beatrice Abbey                                    C         Excluded       08:20          2H 27M    
+20   Beatrice Fudge                                    A         Finished       08:23          3H 50M    
+22   Beau Abbey                                        D         Finished       08:26          2H 2M     
+23   Beau Fudge                                        C         Excluded       08:29          1H 20M    
+24   Bella Abbey                                       B         Finished       08:32          2H 54M    
+26   Bella Fudge                                       F         Finished       08:35          1H 49M    
+27   Black Jack Abbey                                  F         Finished       08:38          1H 49M    
+28   Black Jack Fudge                                  A         Excluded       08:41          3H 3M     
+30   Blue Abbey                                        B         Finished       08:45          2H 43M    
+31   Blue Fudge                                        B         Finished       08:48          2H 44M    
+32   Bobby Abbey                                       A         Finished       08:51          3H 52M    
+34   Bobby Fudge                                       E         Finished       08:54          2H 3M     
+35   Bubbles Abbey                                     C         Excluded       08:57          2H 32M    
+36   Bubbles Fudge                                     D         Excluded       09:00          0H 57M    
+38   Captain Abbey                                     A         Finished       09:03          3H 52M    
+39   Captain Fudge                                     B         Finished       09:06          2H 51M    
+40   Chalkie Abbey                                     D         Finished       09:09          2H 3M     
+41   Chalkie Fudge                                     F         Excluded       09:12          1H 53M    
+42   Copper Abbey                                      E         Finished       09:15          2H 5M     
+44   Copper Fudge                                      B         Excluded       09:18          2H 27M    
+45   Diamond Abbey                                     C         Excluded       09:21          2H 29M    
+46   Diamond Fudge                                     B         Excluded       09:25          1H 48M    
+47   Dinky Abbey                                       E         Finished       09:28          2H 10M    
+48   Dinky Fudge                                       F         Finished       09:31          1H 54M    
+49   Ebony Abbey                                       B         Finished       09:34          3H 4M     
+50   Ebony Fudge                                       C         Excluded       09:37          2H 35M    
+51   Ginger Abbey                                      C         Excluded       09:40          2H 32M    
+52   Ginger Fudge                                      F         Finished       09:43          1H 58M    
+53   Goldie Abbey                                      A         Excluded       09:46          3H 9M     
+55   Goldie Fudge                                      E         Finished       09:49          2H 12M    
+56   Honey Abbey                                       F         Finished       09:52          1H 54M    
+57   Honey Fudge                                       C         Excluded       09:56          2H 36M    
+58   Izzy Abbey                                        A         Finished       10:00          3H 53M    
+59   Izzy Fudge                                        A         Excluded       10:03          1H 7M     
+60   Jasmine Abbey                                     A         Finished       10:06          3H 50M    
+61   Jasmine Fudge                                     F         Finished       10:09          1H 55M    
+62   Lady Abbey                                        D         Excluded       10:12          2H 49M    
+64   Lady Fudge                                        B         Finished       10:16          2H 59M    
+65   Lady Tara Abbey                                   C         Excluded       10:19          2H 29M    
+66   Lady Tara Fudge                                   B         Finished       10:23          2H 50M    
+67   Lemon Abbey                                       B         Finished       10:26          3H 2M     
+68   Lemon Fudge                                       E         Excluded       10:29          2H 25M    
+69   Lord Abbey                                        F         Finished       10:32          1H 54M    
+70   Lord Fudge                                        E         Finished       10:35          2H 14M    
+71   Lucky Abbey                                       A         Excluded       10:39          3H 14M    
+74   Lucky Fudge                                       E         Finished       10:42          2H 12M    
+76   Lord Abbey                                        D         Finished       10:45          2H 3M     
+77   Lord Fudge                                        B         Finished       10:49          2H 56M    
+78   Maddy Abbey                                       F         Excluded       10:53          2H 2M     
+79   Maddy Fudge                                       A         Finished       10:56          3H 54M    
+80   Magic Abbey                                       D         Finished       11:00          2H 4M     
+81   Magic Fudge                                       D         Finished       11:04          2H 2M     
+83   Major Abbey                                       A         Finished       11:07          3H 43M    
+85   Major Fudge                                       A         Excluded       11:11          3H 10M    
+86   Mattie Abbey                                      B         Finished       11:14          2H 52M    
+87   Mattie Fudge                                      A         Finished       11:17          3H 52M    
+89   Prince Abbey                                      B         Finished       11:21          2H 59M    
+90   Prince Fudge                                      A         Finished       11:24          4H 0M     
+91   Princess Abbey                                    B         Finished       11:28          3H 1M     
+92   Princess Fudge                                    B         Finished       11:31          3H 2M     
+93   Rosie Abbey                                       D         Finished       11:34          1H 59M    
+94   Rosie Fudge                                       B         Finished       11:37          2H 45M    
+95   Ruby Abbey                                        F         Finished       11:40          1H 59M    
+97   Ruby Fudge                                        C         Excluded       11:43          2H 36M    
+98   Sapphire Abbey                                    C         Excluded       11:46          2H 30M    
+100  Sapphire Fudge                                    F         Finished       11:49          1H 57M    
+101  Scarlet Abbey                                     C         Excluded       11:52          2H 35M    
+102  Scarlet Fudge                                     F         Finished       11:55          1H 56M    
+103  sienna Abbey                                      D         Finished       11:59          2H 2M     
+106  sienna Fudge                                      B         Excluded       12:02          2H 51M    
+107  Silver Abbey                                      F         Finished       12:05          1H 56M    
+108  Silver Fudge                                      A         Finished       12:08          3H 43M    
+109  Smokey Abbey                                      A         Finished       12:11          3H 55M    
+110  Smokey Fudge                                      D         Finished       12:14          2H 3M     
+111  Snowy Abbey                                       E         Excluded       12:17          1H 19M    
+113  Snowy Fudge                                       C         Excluded       12:20          2H 28M    
+114  sonic Abbey                                       A         Finished       12:23          3H 47M    
+115  sonic Fudge                                       D         Finished       12:26          2H 3M     
+117  Summer Abbey                                      A         Finished       12:30          3H 58M    
+118  Summer Fudge                                      E         Finished       12:33          2H 10M    
+121  Tango Abbey                                       B         Finished       12:36          2H 57M    
+122  Tango Fudge                                       A         Finished       12:39          4H 2M     
+123  Topaz Abbey                                       B         Finished       12:42          2H 54M    
+124  Topaz Fudge                                       F         Finished       12:45          1H 53M    
+126  Zizou Abbey                                       D         Finished       12:49          2H 3M     
+127  Zizou Fudge                                       F         Finished       12:52          1H 55M    
+128  Sindre Smistad                                    X         Not Started    N/A            N/A       
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 4
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+128  Sindre Smistad                                    X         Not Started    N/A            N/A       
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 5
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Ace Abbey                                         E         Finished       07:30          2H 4M     
+3    Ace Fudge                                         A         Finished       07:33          3H 52M    
+5    Amber Fudge                                       E         Finished       07:40          2H 11M    
+6    April Abbey                                       D         Finished       07:43          2H 3M     
+7    April Fudge                                       B         Finished       07:46          2H 46M    
+8    Ash Abbey                                         F         Finished       07:49          1H 56M    
+9    Ash Fudge                                         D         Finished       07:52          1H 58M    
+10   Asti Abbey                                        A         Finished       07:55          3H 49M    
+11   Asti Fudge                                        A         Finished       07:58          3H 51M    
+13   Autumn Fudge                                      B         Finished       08:04          2H 53M    
+14   Barfields Marco Abbey                             A         Finished       08:07          3H 49M    
+16   Barfields Marco Fudge                             F         Finished       08:10          1H 55M    
+17   Basil Abbey                                       B         Finished       08:13          2H 2M     
+18   Basil Fudge                                       A         Finished       08:16          3H 50M    
+20   Beatrice Fudge                                    A         Finished       08:23          3H 50M    
+22   Beau Abbey                                        D         Finished       08:26          2H 2M     
+24   Bella Abbey                                       B         Finished       08:32          2H 54M    
+26   Bella Fudge                                       F         Finished       08:35          1H 49M    
+27   Black Jack Abbey                                  F         Finished       08:38          1H 49M    
+30   Blue Abbey                                        B         Finished       08:45          2H 43M    
+31   Blue Fudge                                        B         Finished       08:48          2H 44M    
+32   Bobby Abbey                                       A         Finished       08:51          3H 52M    
+34   Bobby Fudge                                       E         Finished       08:54          2H 3M     
+38   Captain Abbey                                     A         Finished       09:03          3H 52M    
+39   Captain Fudge                                     B         Finished       09:06          2H 51M    
+40   Chalkie Abbey                                     D         Finished       09:09          2H 3M     
+42   Copper Abbey                                      E         Finished       09:15          2H 5M     
+47   Dinky Abbey                                       E         Finished       09:28          2H 10M    
+48   Dinky Fudge                                       F         Finished       09:31          1H 54M    
+49   Ebony Abbey                                       B         Finished       09:34          3H 4M     
+52   Ginger Fudge                                      F         Finished       09:43          1H 58M    
+55   Goldie Fudge                                      E         Finished       09:49          2H 12M    
+56   Honey Abbey                                       F         Finished       09:52          1H 54M    
+58   Izzy Abbey                                        A         Finished       10:00          3H 53M    
+60   Jasmine Abbey                                     A         Finished       10:06          3H 50M    
+61   Jasmine Fudge                                     F         Finished       10:09          1H 55M    
+64   Lady Fudge                                        B         Finished       10:16          2H 59M    
+66   Lady Tara Fudge                                   B         Finished       10:23          2H 50M    
+67   Lemon Abbey                                       B         Finished       10:26          3H 2M     
+69   Lord Abbey                                        F         Finished       10:32          1H 54M    
+70   Lord Fudge                                        E         Finished       10:35          2H 14M    
+74   Lucky Fudge                                       E         Finished       10:42          2H 12M    
+76   Lord Abbey                                        D         Finished       10:45          2H 3M     
+77   Lord Fudge                                        B         Finished       10:49          2H 56M    
+79   Maddy Fudge                                       A         Finished       10:56          3H 54M    
+80   Magic Abbey                                       D         Finished       11:00          2H 4M     
+81   Magic Fudge                                       D         Finished       11:04          2H 2M     
+83   Major Abbey                                       A         Finished       11:07          3H 43M    
+86   Mattie Abbey                                      B         Finished       11:14          2H 52M    
+87   Mattie Fudge                                      A         Finished       11:17          3H 52M    
+89   Prince Abbey                                      B         Finished       11:21          2H 59M    
+90   Prince Fudge                                      A         Finished       11:24          4H 0M     
+91   Princess Abbey                                    B         Finished       11:28          3H 1M     
+92   Princess Fudge                                    B         Finished       11:31          3H 2M     
+93   Rosie Abbey                                       D         Finished       11:34          1H 59M    
+94   Rosie Fudge                                       B         Finished       11:37          2H 45M    
+95   Ruby Abbey                                        F         Finished       11:40          1H 59M    
+100  Sapphire Fudge                                    F         Finished       11:49          1H 57M    
+102  Scarlet Fudge                                     F         Finished       11:55          1H 56M    
+103  sienna Abbey                                      D         Finished       11:59          2H 2M     
+107  Silver Abbey                                      F         Finished       12:05          1H 56M    
+108  Silver Fudge                                      A         Finished       12:08          3H 43M    
+109  Smokey Abbey                                      A         Finished       12:11          3H 55M    
+110  Smokey Fudge                                      D         Finished       12:14          2H 3M     
+114  sonic Abbey                                       A         Finished       12:23          3H 47M    
+115  sonic Fudge                                       D         Finished       12:26          2H 3M     
+117  Summer Abbey                                      A         Finished       12:30          3H 58M    
+118  Summer Fudge                                      E         Finished       12:33          2H 10M    
+121  Tango Abbey                                       B         Finished       12:36          2H 57M    
+122  Tango Fudge                                       A         Finished       12:39          4H 2M     
+123  Topaz Abbey                                       B         Finished       12:42          2H 54M    
+124  Topaz Fudge                                       F         Finished       12:45          1H 53M    
+126  Zizou Abbey                                       D         Finished       12:49          2H 3M     
+127  Zizou Fudge                                       F         Finished       12:52          1H 55M    
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 5 6
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+4    Amber Abbey                                       C         Excluded       07:37          2H 37M    
+12   Autumn Abbey                                      C         Excluded       08:01          2H 30M    
+19   Beatrice Abbey                                    C         Excluded       08:20          2H 27M    
+23   Beau Fudge                                        C         Excluded       08:29          1H 20M    
+28   Black Jack Fudge                                  A         Excluded       08:41          3H 3M     
+35   Bubbles Abbey                                     C         Excluded       08:57          2H 32M    
+36   Bubbles Fudge                                     D         Excluded       09:00          0H 57M    
+41   Chalkie Fudge                                     F         Excluded       09:12          1H 53M    
+44   Copper Fudge                                      B         Excluded       09:18          2H 27M    
+45   Diamond Abbey                                     C         Excluded       09:21          2H 29M    
+46   Diamond Fudge                                     B         Excluded       09:25          1H 48M    
+50   Ebony Fudge                                       C         Excluded       09:37          2H 35M    
+51   Ginger Abbey                                      C         Excluded       09:40          2H 32M    
+53   Goldie Abbey                                      A         Excluded       09:46          3H 9M     
+57   Honey Fudge                                       C         Excluded       09:56          2H 36M    
+59   Izzy Fudge                                        A         Excluded       10:03          1H 7M     
+62   Lady Abbey                                        D         Excluded       10:12          2H 49M    
+65   Lady Tara Abbey                                   C         Excluded       10:19          2H 29M    
+68   Lemon Fudge                                       E         Excluded       10:29          2H 25M    
+71   Lucky Abbey                                       A         Excluded       10:39          3H 14M    
+78   Maddy Abbey                                       F         Excluded       10:53          2H 2M     
+85   Major Fudge                                       A         Excluded       11:11          3H 10M    
+97   Ruby Fudge                                        C         Excluded       11:43          2H 36M    
+98   Sapphire Abbey                                    C         Excluded       11:46          2H 30M    
+101  Scarlet Abbey                                     C         Excluded       11:52          2H 35M    
+106  sienna Fudge                                      B         Excluded       12:02          2H 51M    
+111  Snowy Abbey                                       E         Excluded       12:17          1H 19M    
+113  Snowy Fudge                                       C         Excluded       12:20          2H 28M    
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 7
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+4    Amber Abbey                                       C         Excluded       07:37          2H 37M    
+12   Autumn Abbey                                      C         Excluded       08:01          2H 30M    
+19   Beatrice Abbey                                    C         Excluded       08:20          2H 27M    
+23   Beau Fudge                                        C         Excluded       08:29          1H 20M    
+28   Black Jack Fudge                                  A         Excluded       08:41          3H 3M     
+35   Bubbles Abbey                                     C         Excluded       08:57          2H 32M    
+36   Bubbles Fudge                                     D         Excluded       09:00          0H 57M    
+41   Chalkie Fudge                                     F         Excluded       09:12          1H 53M    
+44   Copper Fudge                                      B         Excluded       09:18          2H 27M    
+45   Diamond Abbey                                     C         Excluded       09:21          2H 29M    
+46   Diamond Fudge                                     B         Excluded       09:25          1H 48M    
+50   Ebony Fudge                                       C         Excluded       09:37          2H 35M    
+51   Ginger Abbey                                      C         Excluded       09:40          2H 32M    
+53   Goldie Abbey                                      A         Excluded       09:46          3H 9M     
+57   Honey Fudge                                       C         Excluded       09:56          2H 36M    
+59   Izzy Fudge                                        A         Excluded       10:03          1H 7M     
+62   Lady Abbey                                        D         Excluded       10:12          2H 49M    
+65   Lady Tara Abbey                                   C         Excluded       10:19          2H 29M    
+68   Lemon Fudge                                       E         Excluded       10:29          2H 25M    
+71   Lucky Abbey                                       A         Excluded       10:39          3H 14M    
+78   Maddy Abbey                                       F         Excluded       10:53          2H 2M     
+85   Major Fudge                                       A         Excluded       11:11          3H 10M    
+97   Ruby Fudge                                        C         Excluded       11:43          2H 36M    
+98   Sapphire Abbey                                    C         Excluded       11:46          2H 30M    
+101  Scarlet Abbey                                     C         Excluded       11:52          2H 35M    
+106  sienna Fudge                                      B         Excluded       12:02          2H 51M    
+111  Snowy Abbey                                       E         Excluded       12:17          1H 19M    
+113  Snowy Fudge                                       C         Excluded       12:20          2H 28M    
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 8
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+No entrants has been excluded so far.
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+7. Print entrants excluded for taking the wrong track.
+8. Print entrants excluded for failing a medical check point
+0. Exit.
+>> 0
+[01;32msis13@Yuki[01;34m ~/Dropbox/CS23710_C_and_Unix/BigBrother $[00m exit
+
+Script done on Fri 14 Dec 2012 12:20:58 GMT

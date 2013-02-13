@@ -1,0 +1,90 @@
+Script started on Fri 14 Dec 2012 12:12:53 GMT
+[01;32msis13@Yuki[01;34m ~/Dropbox/CS23710_C_and_Unix/BigBrother $[00m ./mainmission 
+Please enter a path to a file containing event name and date:
+>>> data/name.txt
+[i] Event loaded!
+
+Please enter a path to a file containing node data:
+>>> data/nodes.txt
+[i] 14 nodes loaded from 'data/nodes.txt'.
+
+Please enter a path to a file containing track data:
+>>> data/tracks.txt
+[i] 16 tracks loaded from 'data/tracks.txt'.
+
+Please enter a path to a file containing courses:
+>>> data/courses.txt
+[i] 3 courses loaded from 'data/courses.txt'.
+
+Please enter a path to a file containing entrant data:data/entrants.txt
+[i] 14 entrants loaded from 'data/entrants.txt'.
+
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 4
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Donald Duck                                       D         Not Started    N/A            N/A       
+2    Mickey Mouse                                      D         Not Started    N/A            N/A       
+3    Jemima Julieta Mouse                              E         Not Started    N/A            N/A       
+4    Minnie Duck                                       F         Not Started    N/A            N/A       
+5    Minnie Mouse                                      E         Not Started    N/A            N/A       
+6    Minnie Mouse Junior                               E         Not Started    N/A            N/A       
+7    Deputy Doug                                       D         Not Started    N/A            N/A       
+8    Deputy Duck                                       D         Not Started    N/A            N/A       
+9    Bewick Swan                                       F         Not Started    N/A            N/A       
+10   Black Swan                                        F         Not Started    N/A            N/A       
+11   Albert Einstein                                   E         Not Started    N/A            N/A       
+12   Albert Mouse                                      D         Not Started    N/A            N/A       
+13   Donald Duck Senior                                E         Not Started    N/A            N/A       
+14   Egbert Einstein                                   F         Not Started    N/A            N/A       
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 2
+
+1. From file.
+2. Enter manually:
+0. Back
+>> 2
+Enter the cp data:
+>> T 1 1 07:30
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 6
+ID   Name                                              Course    Status         Start time     Total time
+=========================================================================================================
+1    Donald Duck                                       D         Started        07:30          0H 0M     
+
+What do you wish to do?
+1. Current status of a entrant.
+2. Load checkpoint data.
+3. Show entrants list.
+4. Who have not started?
+5. Who have finished?
+6. Who is out on the track?
+0. Exit.
+>> 0
+[01;32msis13@Yuki[01;34m ~/Dropbox/CS23710_C_and_Unix/BigBrother $[00m exit
+
+Script done on Fri 14 Dec 2012 12:13:37 GMT

@@ -1,0 +1,66 @@
+\hypertarget{structcourse__list}{\section{course\-\_\-list Struct Reference}
+\label{structcourse__list}\index{course\-\_\-list@{course\-\_\-list}}
+}
+
+
+This is the course list.  
+
+
+
+
+{\ttfamily \#include $<$course.\-h$>$}
+
+\subsection*{Data Fields}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structcourse__list_a1cac9147dae39e5927565874cce759b3}{\hyperlink{course_8h_a69f4c62ff3070d7db8a23b38333ea000}{C\-O\-U\-R\-S\-E} $\ast$ \hyperlink{structcourse__list_a1cac9147dae39e5927565874cce759b3}{head}}\label{structcourse__list_a1cac9147dae39e5927565874cce759b3}
+
+\begin{DoxyCompactList}\small\item\em The head of the list. \end{DoxyCompactList}\item 
+\hypertarget{structcourse__list_aa658f50d52d33cc25e2817aae860bdb8}{\hyperlink{course_8h_a69f4c62ff3070d7db8a23b38333ea000}{C\-O\-U\-R\-S\-E} $\ast$ \hyperlink{structcourse__list_aa658f50d52d33cc25e2817aae860bdb8}{tail}}\label{structcourse__list_aa658f50d52d33cc25e2817aae860bdb8}
+
+\begin{DoxyCompactList}\small\item\em The tail of the list. \end{DoxyCompactList}\item 
+\hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{structcourse__list_a5adfcd18fff8020d1e4c068082a03cba}{node\-\_\-list}
+\begin{DoxyCompactList}\small\item\em A pointer to a N\-O\-D\-E\-\_\-\-L\-I\-S\-T containing nodes that are used in this course. \end{DoxyCompactList}\item 
+\hyperlink{track_8h_a74548625073be9665a690d126e4daf4f}{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{structcourse__list_aaad25fce52f3485b94f900248f4fb45b}{track\-\_\-list}
+\begin{DoxyCompactList}\small\item\em A pointer to a T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T containing tracks that are used in this course. \end{DoxyCompactList}\item 
+\hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$ \hyperlink{structcourse__list_a4e1346092023718442c7b74cd5b30fa4}{entrants}
+\begin{DoxyCompactList}\small\item\em A pointer to a E\-N\-T\-R\-A\-N\-T array containing entrants that are participating in this course. \end{DoxyCompactList}\item 
+\hypertarget{structcourse__list_adf389e68a2d5fb4d4fabea907e1da1fc}{int \hyperlink{structcourse__list_adf389e68a2d5fb4d4fabea907e1da1fc}{size}}\label{structcourse__list_adf389e68a2d5fb4d4fabea907e1da1fc}
+
+\begin{DoxyCompactList}\small\item\em The size of the course list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+
+\subsection{Detailed Description}
+This is the course list. 
+
+It is used to easily pass around the list and information about it to make working with it easier. 
+
+\subsection{Field Documentation}
+\hypertarget{structcourse__list_a4e1346092023718442c7b74cd5b30fa4}{\index{course\-\_\-list@{course\-\_\-list}!entrants@{entrants}}
+\index{entrants@{entrants}!course_list@{course\-\_\-list}}
+\subsubsection[{entrants}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-N\-T\-R\-A\-N\-T}$\ast$ course\-\_\-list\-::entrants}}\label{structcourse__list_a4e1346092023718442c7b74cd5b30fa4}
+
+
+A pointer to a E\-N\-T\-R\-A\-N\-T array containing entrants that are participating in this course. 
+
+The list may also contain entrants that are not participating in this course. \hypertarget{structcourse__list_a5adfcd18fff8020d1e4c068082a03cba}{\index{course\-\_\-list@{course\-\_\-list}!node\-\_\-list@{node\-\_\-list}}
+\index{node\-\_\-list@{node\-\_\-list}!course_list@{course\-\_\-list}}
+\subsubsection[{node\-\_\-list}]{\setlength{\rightskip}{0pt plus 5cm}{\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T}$\ast$ course\-\_\-list\-::node\-\_\-list}}\label{structcourse__list_a5adfcd18fff8020d1e4c068082a03cba}
+
+
+A pointer to a N\-O\-D\-E\-\_\-\-L\-I\-S\-T containing nodes that are used in this course. 
+
+The list may also contain nodes that are not used in this course. \hypertarget{structcourse__list_aaad25fce52f3485b94f900248f4fb45b}{\index{course\-\_\-list@{course\-\_\-list}!track\-\_\-list@{track\-\_\-list}}
+\index{track\-\_\-list@{track\-\_\-list}!course_list@{course\-\_\-list}}
+\subsubsection[{track\-\_\-list}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T}$\ast$ course\-\_\-list\-::track\-\_\-list}}\label{structcourse__list_aaad25fce52f3485b94f900248f4fb45b}
+
+
+A pointer to a T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T containing tracks that are used in this course. 
+
+The list may also contain tracks that are not used in this course. 
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{course_8h}{course.\-h}\end{DoxyCompactItemize}

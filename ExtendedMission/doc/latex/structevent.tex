@@ -1,0 +1,69 @@
+\hypertarget{structevent}{\section{event Struct Reference}
+\label{structevent}\index{event@{event}}
+}
+
+
+The event structure holds information about the event such as the name, date, and time.  
+
+
+
+
+{\ttfamily \#include $<$event.\-h$>$}
+
+\subsection*{Data Fields}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{structevent_a7c46e4f8536cfd63ebbdac5a258dc5dc}{name} \mbox{[}80\mbox{]}
+\begin{DoxyCompactList}\small\item\em The name of the event. \end{DoxyCompactList}\item 
+char \hyperlink{structevent_a83132208cc7419fd62d8c7cd93ba71bd}{date} \mbox{[}80\mbox{]}
+\begin{DoxyCompactList}\small\item\em The date of the event. \end{DoxyCompactList}\item 
+\hypertarget{structevent_a2b096ce628927ff2fa8ce151e210bc70}{char \hyperlink{structevent_a2b096ce628927ff2fa8ce151e210bc70}{time} \mbox{[}80\mbox{]}}\label{structevent_a2b096ce628927ff2fa8ce151e210bc70}
+
+\begin{DoxyCompactList}\small\item\em The time of the event. \end{DoxyCompactList}\item 
+\hyperlink{entrant_8h_a7eb199c35dfca7ae6b3269c34a298b4a}{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{structevent_aa1a228481826b11e4fb1e898c4cad46b}{entrants}
+\begin{DoxyCompactList}\small\item\em An array of the entrants participating in the event. \end{DoxyCompactList}\item 
+\hypertarget{structevent_a74b445ee64e41219a0367adad894a7ba}{\hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{structevent_a74b445ee64e41219a0367adad894a7ba}{nodes}}\label{structevent_a74b445ee64e41219a0367adad894a7ba}
+
+\begin{DoxyCompactList}\small\item\em Linked list of all the courses in the event. \end{DoxyCompactList}\item 
+\hypertarget{structevent_a8cdc68cd442a8388a43fd6ace1b60024}{\hyperlink{track_8h_a74548625073be9665a690d126e4daf4f}{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{structevent_a8cdc68cd442a8388a43fd6ace1b60024}{tracks}}\label{structevent_a8cdc68cd442a8388a43fd6ace1b60024}
+
+\begin{DoxyCompactList}\small\item\em List of all the tracks in this event. \end{DoxyCompactList}\item 
+\hypertarget{structevent_a23dbac353abd557d37ce84982fb80f47}{\hyperlink{course_8h_aa6d3ed6acb1b755d50093c623587ee17}{C\-O\-U\-R\-S\-E\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{structevent_a23dbac353abd557d37ce84982fb80f47}{courses}}\label{structevent_a23dbac353abd557d37ce84982fb80f47}
+
+\begin{DoxyCompactList}\small\item\em List of all the courses in this event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+
+\subsection{Detailed Description}
+The event structure holds information about the event such as the name, date, and time. 
+
+The structure also has a array of entrants and a linked list of the course nodes. 
+
+\subsection{Field Documentation}
+\hypertarget{structevent_a83132208cc7419fd62d8c7cd93ba71bd}{\index{event@{event}!date@{date}}
+\index{date@{date}!event@{event}}
+\subsubsection[{date}]{\setlength{\rightskip}{0pt plus 5cm}char event\-::date\mbox{[}80\mbox{]}}}\label{structevent_a83132208cc7419fd62d8c7cd93ba71bd}
+
+
+The date of the event. 
+
+The date is in free text format, and no longer than 80 characters. \hypertarget{structevent_aa1a228481826b11e4fb1e898c4cad46b}{\index{event@{event}!entrants@{entrants}}
+\index{entrants@{entrants}!event@{event}}
+\subsubsection[{entrants}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T}$\ast$ event\-::entrants}}\label{structevent_aa1a228481826b11e4fb1e898c4cad46b}
+
+
+An array of the entrants participating in the event. 
+
+The size of the array is dynamic. \hypertarget{structevent_a7c46e4f8536cfd63ebbdac5a258dc5dc}{\index{event@{event}!name@{name}}
+\index{name@{name}!event@{event}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}char event\-::name\mbox{[}80\mbox{]}}}\label{structevent_a7c46e4f8536cfd63ebbdac5a258dc5dc}
+
+
+The name of the event. 
+
+Name can not be longer than 80 characters. 
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{event_8h}{event.\-h}\end{DoxyCompactItemize}

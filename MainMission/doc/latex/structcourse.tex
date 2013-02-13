@@ -1,0 +1,54 @@
+\hypertarget{structcourse}{\section{course Struct Reference}
+\label{structcourse}\index{course@{course}}
+}
+
+
+This data structure holds information about a course in the event.  
+
+
+
+
+{\ttfamily \#include $<$course.\-h$>$}
+
+\subsection*{Data Fields}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{structcourse_ab027792ebffb0cdd68865f83ed267ada}{course\-\_\-id}
+\begin{DoxyCompactList}\small\item\em The course id. \end{DoxyCompactList}\item 
+\hypertarget{structcourse_a8948c972f35b2d8fe360342b3ce5b6db}{int \hyperlink{structcourse_a8948c972f35b2d8fe360342b3ce5b6db}{nodes\-\_\-size}}\label{structcourse_a8948c972f35b2d8fe360342b3ce5b6db}
+
+\begin{DoxyCompactList}\small\item\em The number of nodes in the course. \end{DoxyCompactList}\item 
+\hypertarget{structcourse_aa8b271a21f077bd06998d050dd12b42b}{struct \hyperlink{structcourse}{course} $\ast$ \hyperlink{structcourse_aa8b271a21f077bd06998d050dd12b42b}{next}}\label{structcourse_aa8b271a21f077bd06998d050dd12b42b}
+
+\begin{DoxyCompactList}\small\item\em Pointer to the next element in the list. \end{DoxyCompactList}\item 
+\hypertarget{structcourse_a9cf188051aa3453cd8ffed0373253c39}{int \hyperlink{structcourse_a9cf188051aa3453cd8ffed0373253c39}{time\-\_\-cp}}\label{structcourse_a9cf188051aa3453cd8ffed0373253c39}
+
+\begin{DoxyCompactList}\small\item\em Number of check points where time is recorded in the course. \end{DoxyCompactList}\item 
+\hypertarget{structcourse_a8dad326c13b7ff3faa4b7a69e278faa7}{int \hyperlink{structcourse_a8dad326c13b7ff3faa4b7a69e278faa7}{elements}}\label{structcourse_a8dad326c13b7ff3faa4b7a69e278faa7}
+
+\begin{DoxyCompactList}\small\item\em Number of node elements currently in the nodes array. \end{DoxyCompactList}\item 
+\hypertarget{structcourse_acd7247aeff5f01d6db0e7aa01867f1da}{int \hyperlink{structcourse_acd7247aeff5f01d6db0e7aa01867f1da}{nodes} \mbox{[}100\mbox{]}}\label{structcourse_acd7247aeff5f01d6db0e7aa01867f1da}
+
+\begin{DoxyCompactList}\small\item\em Array of nodes in the course. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+
+\subsection{Detailed Description}
+This data structure holds information about a course in the event. 
+
+A course consists of several nodes and a single capital letter to identify the course. This data structure is also used as a linked list, and so has a pointer to the next element in the list. 
+
+\subsection{Field Documentation}
+\hypertarget{structcourse_ab027792ebffb0cdd68865f83ed267ada}{\index{course@{course}!course\-\_\-id@{course\-\_\-id}}
+\index{course\-\_\-id@{course\-\_\-id}!course@{course}}
+\subsubsection[{course\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}char course\-::course\-\_\-id}}\label{structcourse_ab027792ebffb0cdd68865f83ed267ada}
+
+
+The course id. 
+
+The id is a single capital letter character. 
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{course_8h}{course.\-h}\end{DoxyCompactItemize}

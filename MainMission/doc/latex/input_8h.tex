@@ -1,0 +1,256 @@
+\hypertarget{input_8h}{\section{input.\-h File Reference}
+\label{input_8h}\index{input.\-h@{input.\-h}}
+}
+
+
+This file contains function definitions for \hyperlink{input_8c}{input.\-c}.  
+
+
+{\ttfamily \#include \char`\"{}entrant.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{entrant_8h_a7eb199c35dfca7ae6b3269c34a298b4a}{E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{input_8h_aaee7276972dbbe308c853487f2265af6}{get\-\_\-entrants} ()
+\begin{DoxyCompactList}\small\item\em This function prompts the user with a question asking for the path to a file containing data on entrants. \end{DoxyCompactList}\item 
+\hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{input_8h_a91b5275a880029aa1ffac5b442c4c5f0}{get\-\_\-nodes} ()
+\begin{DoxyCompactList}\small\item\em This function prompts the user with a question asking for the path to a file containing data on nodes. \end{DoxyCompactList}\item 
+\hyperlink{track_8h_a74548625073be9665a690d126e4daf4f}{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{input_8h_aabc0327a6a364edefe059394d29a19f5}{get\-\_\-tracks} (\hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$\hyperlink{structnode__list}{node\-\_\-list})
+\begin{DoxyCompactList}\small\item\em This function prompts the user with a question asking for the path to a file containing data on tracks. \end{DoxyCompactList}\item 
+\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$ \hyperlink{input_8h_ad43460e5e6b539477e8230b1b1c8942c}{get\-\_\-event} ()
+\begin{DoxyCompactList}\small\item\em Prompts the user with a question about the path to the file containing the date about the event. \end{DoxyCompactList}\item 
+\hyperlink{course_8h_aa6d3ed6acb1b755d50093c623587ee17}{C\-O\-U\-R\-S\-E\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{input_8h_a75986e7e4a7c17d3da121fad5d2dd5af}{get\-\_\-courses} (\hyperlink{node_8h_a12b8a06e01ee52ed252bc1b6179a8b0d}{N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$nodes, \hyperlink{track_8h_a74548625073be9665a690d126e4daf4f}{T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T} $\ast$tracks)
+\begin{DoxyCompactList}\small\item\em Prompts the user about the path to a file containing data about courses. \end{DoxyCompactList}\item 
+int \hyperlink{input_8h_a60233346595d253e355b61e55d87a64e}{show\-\_\-menu} ()
+\begin{DoxyCompactList}\small\item\em This function prints out the main user menu the user will use to interact with the different parts of the program . \end{DoxyCompactList}\item 
+\hyperlink{entrant_8h_a0e99575e41c762d6089bed6332ce69b3}{E\-N\-T\-R\-A\-N\-T} $\ast$ \hyperlink{input_8h_ade404c6763a505872f369df6f93a6f58}{query\-\_\-entrant} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event})
+\begin{DoxyCompactList}\small\item\em Searches for a entrant either by name or id given by the user. \end{DoxyCompactList}\item 
+int \hyperlink{input_8h_a2e1cc4086592707b74ee11a7b49b7428}{ask\-\_\-int} (char $\ast$question, int min, int max)
+\begin{DoxyCompactList}\small\item\em This function asks the user a question and takes a single integer between a set range as input. \end{DoxyCompactList}\item 
+void \hyperlink{input_8h_ad32903617a2ea8b09602ebc16b51bbab}{ask\-\_\-str} (char $\ast$question, char $\ast$response)
+\begin{DoxyCompactList}\small\item\em This function ask the user a question and takes a line or up to 255 characters of input. \end{DoxyCompactList}\item 
+void \hyperlink{input_8h_a23adba2d14cbd05c16a678984fca4b66}{get\-\_\-cp\-\_\-data} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event})
+\begin{DoxyCompactList}\small\item\em Prompts the user with the question to enter the path to the filename containing the checkpoint data. \end{DoxyCompactList}\item 
+void \hyperlink{input_8h_abea3684b3b5ff43f9ef92d609dcd37c6}{load\-\_\-cp\-\_\-data} (\hyperlink{event_8h_a6fa5f4fa80281ebcd4beccf2cb67d4e5}{E\-V\-E\-N\-T} $\ast$\hyperlink{structevent}{event})
+\begin{DoxyCompactList}\small\item\em Prompts the user with the choice of loading the check point data from file or entering it manually. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains function definitions for \hyperlink{input_8c}{input.\-c}. \begin{DoxyAuthor}{Author}
+Sindre Smistad \href{mailto:sis13@aber.ac.uk}{\tt sis13@aber.\-ac.\-uk}
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2012.\-11.\-30 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\hypertarget{input_8h_a2e1cc4086592707b74ee11a7b49b7428}{\index{input.\-h@{input.\-h}!ask\-\_\-int@{ask\-\_\-int}}
+\index{ask\-\_\-int@{ask\-\_\-int}!input.h@{input.\-h}}
+\subsubsection[{ask\-\_\-int}]{\setlength{\rightskip}{0pt plus 5cm}int ask\-\_\-int (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{question, }
+\item[{int}]{min, }
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)}}\label{input_8h_a2e1cc4086592707b74ee11a7b49b7428}
+
+
+This function asks the user a question and takes a single integer between a set range as input. 
+
+The function will repeat the question until a valid integer is entered as input.
+
+
+\begin{DoxyParams}{Parameters}
+{\em question} & String with the question you want to ask the user.\\
+\hline
+{\em min} & Minimum limit of the range.\\
+\hline
+{\em max} & Maximum limit of the range.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The integer value the user inputted. 
+\end{DoxyReturn}
+\hypertarget{input_8h_ad32903617a2ea8b09602ebc16b51bbab}{\index{input.\-h@{input.\-h}!ask\-\_\-str@{ask\-\_\-str}}
+\index{ask\-\_\-str@{ask\-\_\-str}!input.h@{input.\-h}}
+\subsubsection[{ask\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}void ask\-\_\-str (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{question, }
+\item[{char $\ast$}]{response}
+\end{DoxyParamCaption}
+)}}\label{input_8h_ad32903617a2ea8b09602ebc16b51bbab}
+
+
+This function ask the user a question and takes a line or up to 255 characters of input. 
+
+The input is copied into a buffer which should not be smaller than 256 characters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em question} & String with the question you want to ask the user.\\
+\hline
+{\em response} & The buffer the response is copied into. This buffer should not be smaller than 256 characters. \\
+\hline
+\end{DoxyParams}
+\hypertarget{input_8h_a75986e7e4a7c17d3da121fad5d2dd5af}{\index{input.\-h@{input.\-h}!get\-\_\-courses@{get\-\_\-courses}}
+\index{get\-\_\-courses@{get\-\_\-courses}!input.h@{input.\-h}}
+\subsubsection[{get\-\_\-courses}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-O\-U\-R\-S\-E\-\_\-\-L\-I\-S\-T}$\ast$ get\-\_\-courses (
+\begin{DoxyParamCaption}
+\item[{{\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$}]{nodes, }
+\item[{{\bf T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T} $\ast$}]{tracks}
+\end{DoxyParamCaption}
+)}}\label{input_8h_a75986e7e4a7c17d3da121fad5d2dd5af}
+
+
+Prompts the user about the path to a file containing data about courses. 
+
+The data should consist of a single capital character which will be the course I\-D. Followed by a positive integer which will be the number of nodes for the course. The rest of the line should be the I\-D of each node separated by spaces.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nodes} & Pointer to a populated linked list of nodes. The nodes are needed to verify that the course is made of known nodes.\\
+\hline
+{\em tracks} & Pointer to a populated linked list of tracks. The tracks are needed to verify that there is a valid path from start to goal.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The function returns a pointer to a linked list of courses if successful. If it fails N\-U\-L\-L is returned. 
+\end{DoxyReturn}
+\hypertarget{input_8h_a23adba2d14cbd05c16a678984fca4b66}{\index{input.\-h@{input.\-h}!get\-\_\-cp\-\_\-data@{get\-\_\-cp\-\_\-data}}
+\index{get\-\_\-cp\-\_\-data@{get\-\_\-cp\-\_\-data}!input.h@{input.\-h}}
+\subsubsection[{get\-\_\-cp\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}void get\-\_\-cp\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{input_8h_a23adba2d14cbd05c16a678984fca4b66}
+
+
+Prompts the user with the question to enter the path to the filename containing the checkpoint data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The result are stored in this variable. \\
+\hline
+\end{DoxyParams}
+\hypertarget{input_8h_aaee7276972dbbe308c853487f2265af6}{\index{input.\-h@{input.\-h}!get\-\_\-entrants@{get\-\_\-entrants}}
+\index{get\-\_\-entrants@{get\-\_\-entrants}!input.h@{input.\-h}}
+\subsubsection[{get\-\_\-entrants}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-N\-T\-R\-A\-N\-T\-\_\-\-L\-I\-S\-T}$\ast$ get\-\_\-entrants (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{input_8h_aaee7276972dbbe308c853487f2265af6}
+
+
+This function prompts the user with a question asking for the path to a file containing data on entrants. 
+
+The Data should include a positive integer that represents a id. A single capital character which is the id of the course the entrant has signed up for. Followed by a no longer than 80 characters long name.
+
+\begin{DoxyReturn}{Returns}
+The function returns a pointer to a E\-N\-T\-R\-A\-N\-T array if the function was successful. If it fails the function returns N\-U\-L\-L. 
+\end{DoxyReturn}
+\hypertarget{input_8h_ad43460e5e6b539477e8230b1b1c8942c}{\index{input.\-h@{input.\-h}!get\-\_\-event@{get\-\_\-event}}
+\index{get\-\_\-event@{get\-\_\-event}!input.h@{input.\-h}}
+\subsubsection[{get\-\_\-event}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-V\-E\-N\-T}$\ast$ get\-\_\-event (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{input_8h_ad43460e5e6b539477e8230b1b1c8942c}
+
+
+Prompts the user with a question about the path to the file containing the date about the event. 
+
+The file should have date about the name event, start time and date.
+
+\begin{DoxyReturn}{Returns}
+If the function is successful it will return a pointer to a event populated with the data from the file. If i fails N\-U\-L\-L is returned. 
+\end{DoxyReturn}
+\hypertarget{input_8h_a91b5275a880029aa1ffac5b442c4c5f0}{\index{input.\-h@{input.\-h}!get\-\_\-nodes@{get\-\_\-nodes}}
+\index{get\-\_\-nodes@{get\-\_\-nodes}!input.h@{input.\-h}}
+\subsubsection[{get\-\_\-nodes}]{\setlength{\rightskip}{0pt plus 5cm}{\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T}$\ast$ get\-\_\-nodes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{input_8h_a91b5275a880029aa1ffac5b442c4c5f0}
+
+
+This function prompts the user with a question asking for the path to a file containing data on nodes. 
+
+The data should contain a node I\-D and a short string used to identify what type of node the node is.
+
+\begin{DoxyReturn}{Returns}
+The function returns a pointer to a N\-O\-D\-E\-\_\-\-L\-I\-S\-T, the N\-O\-D\-E\-\_\-\-L\-I\-S\-T will be populated with data if successful. If it fails N\-U\-L\-L is returned. 
+\end{DoxyReturn}
+\hypertarget{input_8h_aabc0327a6a364edefe059394d29a19f5}{\index{input.\-h@{input.\-h}!get\-\_\-tracks@{get\-\_\-tracks}}
+\index{get\-\_\-tracks@{get\-\_\-tracks}!input.h@{input.\-h}}
+\subsubsection[{get\-\_\-tracks}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T}$\ast$ get\-\_\-tracks (
+\begin{DoxyParamCaption}
+\item[{{\bf N\-O\-D\-E\-\_\-\-L\-I\-S\-T} $\ast$}]{node\-\_\-list}
+\end{DoxyParamCaption}
+)}}\label{input_8h_aabc0327a6a364edefe059394d29a19f5}
+
+
+This function prompts the user with a question asking for the path to a file containing data on tracks. 
+
+The file should have data about paths between nodes and the maximum time a entrant should use between the nodes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{structnode__list}{node\-\_\-list}} & A pointer to a N\-O\-D\-E\-\_\-\-L\-I\-S\-T, it should be populated. The nodes are needed to ensure that the tracks does not contain none existing nodes.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns a pointer to a T\-R\-A\-C\-K\-\_\-\-L\-I\-S\-T if successful. If the function fails N\-U\-L\-L is returned. 
+\end{DoxyReturn}
+\hypertarget{input_8h_abea3684b3b5ff43f9ef92d609dcd37c6}{\index{input.\-h@{input.\-h}!load\-\_\-cp\-\_\-data@{load\-\_\-cp\-\_\-data}}
+\index{load\-\_\-cp\-\_\-data@{load\-\_\-cp\-\_\-data}!input.h@{input.\-h}}
+\subsubsection[{load\-\_\-cp\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}void load\-\_\-cp\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{input_8h_abea3684b3b5ff43f9ef92d609dcd37c6}
+
+
+Prompts the user with the choice of loading the check point data from file or entering it manually. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event data structure. The result will be stored in this variable. \\
+\hline
+\end{DoxyParams}
+\hypertarget{input_8h_ade404c6763a505872f369df6f93a6f58}{\index{input.\-h@{input.\-h}!query\-\_\-entrant@{query\-\_\-entrant}}
+\index{query\-\_\-entrant@{query\-\_\-entrant}!input.h@{input.\-h}}
+\subsubsection[{query\-\_\-entrant}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-N\-T\-R\-A\-N\-T}$\ast$ query\-\_\-entrant (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-V\-E\-N\-T} $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{input_8h_ade404c6763a505872f369df6f93a6f58}
+
+
+Searches for a entrant either by name or id given by the user. 
+
+The function prompts the user with the choice of searching by name or by the entrant id.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Event structure. The result will be stored in this variable.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If successful the function returns a pointer to the entrant. If it fails N\-U\-L\-L is returned. 
+\end{DoxyReturn}
+\hypertarget{input_8h_a60233346595d253e355b61e55d87a64e}{\index{input.\-h@{input.\-h}!show\-\_\-menu@{show\-\_\-menu}}
+\index{show\-\_\-menu@{show\-\_\-menu}!input.h@{input.\-h}}
+\subsubsection[{show\-\_\-menu}]{\setlength{\rightskip}{0pt plus 5cm}int show\-\_\-menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{input_8h_a60233346595d253e355b61e55d87a64e}
+
+
+This function prints out the main user menu the user will use to interact with the different parts of the program . 
+
+The user is given the choice to go to several different sub menus. The function takes a integer as input and returns the input.
+
+\begin{DoxyReturn}{Returns}
+User inputed integer. 
+\end{DoxyReturn}

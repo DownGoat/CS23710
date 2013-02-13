@@ -1,0 +1,67 @@
+\hypertarget{structentrant}{\section{entrant Struct Reference}
+\label{structentrant}\index{entrant@{entrant}}
+}
+
+
+A typedef of a struct representing a entrant in the competition.  
+
+
+
+
+{\ttfamily \#include $<$entrant.\-h$>$}
+
+\subsection*{Data Fields}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structentrant_a255f1528ac4e76bea9dac1f10a360475}{int \hyperlink{structentrant_a255f1528ac4e76bea9dac1f10a360475}{comp\-\_\-number}}\label{structentrant_a255f1528ac4e76bea9dac1f10a360475}
+
+\begin{DoxyCompactList}\small\item\em The competitor number for the entrant. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_afac79e4ab97ac6984e1c0b9ecfc641c8}{char \hyperlink{structentrant_afac79e4ab97ac6984e1c0b9ecfc641c8}{course\-\_\-id}}\label{structentrant_afac79e4ab97ac6984e1c0b9ecfc641c8}
+
+\begin{DoxyCompactList}\small\item\em The Single letter course code for the course the entrant is participating in. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_aec9dc2d3c3a9bd117ca635d2acddf6e5}{int \hyperlink{structentrant_aec9dc2d3c3a9bd117ca635d2acddf6e5}{excluded}}\label{structentrant_aec9dc2d3c3a9bd117ca635d2acddf6e5}
+
+\begin{DoxyCompactList}\small\item\em Boolean used to denote if the entrant has been excluded from the race. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_a997d236633398e9c4510d38d212d3fa2}{char \hyperlink{structentrant_a997d236633398e9c4510d38d212d3fa2}{name} \mbox{[}\hyperlink{entrant_8h_a0c397a708cec89c74029582574516b30}{M\-A\-X\-\_\-\-N\-A\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H}\mbox{]}}\label{structentrant_a997d236633398e9c4510d38d212d3fa2}
+
+\begin{DoxyCompactList}\small\item\em The name of the entrant. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_a3b2221eadaaa73e90690ba5d69af41e5}{\hyperlink{node_8h_a01aae0d1f45b520aec535df5f9d9afb7}{N\-O\-D\-E} $\ast$ \hyperlink{structentrant_a3b2221eadaaa73e90690ba5d69af41e5}{current\-\_\-node}}\label{structentrant_a3b2221eadaaa73e90690ba5d69af41e5}
+
+\begin{DoxyCompactList}\small\item\em The node the entrant currently is at. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_a3b6806de9f87397faff889d98738cbdd}{\hyperlink{time__struct_8h_a3bbd7adf563300f0bd980d2ea319881d}{T\-I\-M\-E\-\_\-\-S\-T\-R\-U\-C\-T} $\ast$ \hyperlink{structentrant_a3b6806de9f87397faff889d98738cbdd}{start\-\_\-time}}\label{structentrant_a3b6806de9f87397faff889d98738cbdd}
+
+\begin{DoxyCompactList}\small\item\em The time the entrant reached the first check point. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_a95af89e9dc5ba12bf0b0579537a1a6e4}{char \hyperlink{structentrant_a95af89e9dc5ba12bf0b0579537a1a6e4}{total\-\_\-time} \mbox{[}20\mbox{]}}\label{structentrant_a95af89e9dc5ba12bf0b0579537a1a6e4}
+
+\begin{DoxyCompactList}\small\item\em The time the entrant has used so far. \end{DoxyCompactList}\item 
+char \hyperlink{structentrant_a37176427e9cc8045ff719ddc71073e16}{status} \mbox{[}20\mbox{]}
+\begin{DoxyCompactList}\small\item\em The current status of the entrant. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_a54a036dca6116e60c4c81610f0131e9a}{\hyperlink{cp__time_8h_a882d2e5771b02eac787fc6614dc7fa61}{C\-P\-\_\-\-T\-I\-M\-E} $\ast$ \hyperlink{structentrant_a54a036dca6116e60c4c81610f0131e9a}{last\-\_\-cp}}\label{structentrant_a54a036dca6116e60c4c81610f0131e9a}
+
+\begin{DoxyCompactList}\small\item\em Last check point the entrant was at. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_ac1e0ab215104db8263e663d42558aa22}{struct \hyperlink{structentrant}{entrant} $\ast$ \hyperlink{structentrant_ac1e0ab215104db8263e663d42558aa22}{next}}\label{structentrant_ac1e0ab215104db8263e663d42558aa22}
+
+\begin{DoxyCompactList}\small\item\em A pointer to the next element in the linked list. \end{DoxyCompactList}\item 
+\hypertarget{structentrant_a0654f96eb21c02121b1a11c688106386}{\hyperlink{cp__time_8h_acb37ad9c25fbd95e093acd078be10932}{C\-P\-\_\-\-L\-I\-S\-T} $\ast$ \hyperlink{structentrant_a0654f96eb21c02121b1a11c688106386}{checkpoints}}\label{structentrant_a0654f96eb21c02121b1a11c688106386}
+
+\begin{DoxyCompactList}\small\item\em List of check points the entrant has been at so far. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+
+\subsection{Detailed Description}
+A typedef of a struct representing a entrant in the competition. 
+
+\subsection{Field Documentation}
+\hypertarget{structentrant_a37176427e9cc8045ff719ddc71073e16}{\index{entrant@{entrant}!status@{status}}
+\index{status@{status}!entrant@{entrant}}
+\subsubsection[{status}]{\setlength{\rightskip}{0pt plus 5cm}char entrant\-::status\mbox{[}20\mbox{]}}}\label{structentrant_a37176427e9cc8045ff719ddc71073e16}
+
+
+The current status of the entrant. 
+
+It can either be \char`\"{}\-Not Started\char`\"{}, \char`\"{}\-Finished\char`\"{} or the id of the node the entrant last checked in at. 
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{entrant_8h}{entrant.\-h}\end{DoxyCompactItemize}
